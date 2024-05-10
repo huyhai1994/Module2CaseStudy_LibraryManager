@@ -1,0 +1,14 @@
+
+™
+java:S1450"VRemove the "scanner" field and declare it as a local variable in the relevant methods.(Ù‘Ğ8‚İ’‹ö1J$61474994-aff8-4ba6-a031-036aa5a6598b
+Ü
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8â¶˜‹ö1J$8912e212-efdf-4b15-a34f-5f9b988cf231
+m	java:S106!"+Replace this use of System.out by a logger.(—ê¼ú8İ’‹ö1J$7a994f7e-71c4-4e9c-a15b-d494d591141d
+m	java:S106&"+Replace this use of System.out by a logger.(’¾¯¸8İ’‹ö1J$4ba96cbf-92dd-4669-bf88-cb446e93b8de
+i	java:S1315""Add a default case to this switch.(µ‹ÍÏúÿÿÿÿ8™İ’‹ö1J$f2a46808-234d-4b7a-b3f1-fda5111b9cbc
+“
+java:S13015"KReplace this "switch" statement by "if" statements to increase readability.(µ‹ÍÏúÿÿÿÿ8šİ’‹ö1J$a1ccdf87-76d7-4f8a-a890-cd4c26727dfa
+r	java:S106F"+Replace this use of System.out by a logger.(‘–»ûÿÿÿÿ8£İ’‹ö1J$3bbd21ad-0a7f-4878-aa0c-9b6c1ae1f780
+r	java:S106J"+Replace this use of System.out by a logger.(çÅŞÌúÿÿÿÿ8¥İ’‹ö1J$bf9c5636-8fb0-42b7-8b45-b9b98bab5d6f
+v
+java:S1068"3Remove this unused "regexUserChoise" private field.(†ëŸª8§İ’‹ö1J$d4ca6178-eb16-4cd8-993b-3ccc6081152e

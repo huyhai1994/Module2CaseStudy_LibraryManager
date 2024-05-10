@@ -1,0 +1,14 @@
+
+¤	java:S116"]Rename this field "PhoneNumberPattern" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µäâÛşÿÿÿÿ8ú§Šö1J$3d98ce5b-64de-4066-9eef-7e969d59f6a5
+i
+java:S1170"!Make this final field static too.(µäâÛşÿÿÿÿ8˜÷§Šö1J$121ad204-db64-43b0-8d93-aba9bd9f52ae
+É
+java:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(·ÂÄøÿÿÿÿ8Èç–Šö1J$3e89db02-c7f8-44e7-bfe8-0591f4bd46eb
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôñ¢ 8€óœŠö1J$3f936a7b-601a-4080-8e0b-475dbd88eb24
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œóâ¼8Éç–Šö1J$c8896982-806c-4ca7-a183-9d1827a7ca8a
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Ì–Üùÿÿÿÿ8Êç–Šö1J$034a2547-7115-4a5d-9b94-24cfb667f870
+~
+java:S1068"6Remove this unused "PhoneNumberPattern" private field.(µäâÛşÿÿÿÿ8Š§Šö1J$4025bbcb-c447-45da-bc60-2bfb09342725
