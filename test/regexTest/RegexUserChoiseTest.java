@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import regex.RegexUserChoise;
 
 import static junit.framework.TestCase.assertEquals;
-
 class RegexUserChoiseTest {
     @Test
     public void isMatchTestNumber1(){
@@ -13,6 +12,7 @@ class RegexUserChoiseTest {
        boolean result = regexUserChoiseTest.isMatch("1");
        assertEquals(expected,result);
     }
+
     @Test
     public void isMatchTestNumber2(){
         boolean expected = true;
@@ -55,5 +55,4 @@ class RegexUserChoiseTest {
         assertEquals(expected,result);
 
     }
-
 }

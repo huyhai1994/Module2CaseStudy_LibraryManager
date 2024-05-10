@@ -1,14 +1,15 @@
 
-¤	java:S116"]Rename this field "PhoneNumberPattern" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µäâÛşÿÿÿÿ8ú§Šö1J$f9700dc8-dde6-45b9-95e2-20da38e75933
-i
-java:S1170"!Make this final field static too.(µäâÛşÿÿÿÿ8˜÷§Šö1J$72cee7e0-6a4f-4db0-8ce0-0266b7951340
-É
-java:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(·ÂÄøÿÿÿÿ8Èç–Šö1J$b95f7a2a-ed52-4cc6-b0b8-d6f12ef2338a
 Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôñ¢ 8€óœŠö1J$46424308-cab1-4ab4-b598-435b7b564921
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôñ¢ 8ÈÖ–ö1J$26937e79-0750-4291-a55d-3a0b0082825a
 Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œóâ¼8Éç–Šö1J$8b03e23e-d218-4e09-b826-b63a4a2610ee
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œóâ¼8ÉÖ–ö1J$bafbc8fe-45ef-4d39-bfd9-ec4894e429ab
 É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Ì–Üùÿÿÿÿ8Êç–Šö1J$27c155ea-4b5f-4da7-9c87-b2bbe24e86fc
-~
-java:S1068"6Remove this unused "PhoneNumberPattern" private field.(µäâÛşÿÿÿÿ8Š§Šö1J$d4873763-e359-401e-8685-24f51acfc65b
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Ì–Üùÿÿÿÿ8ÉÖ–ö1J$7a0f518a-3d4f-43ae-b795-15f8b87b97ba
+r	java:S106
+"+Replace this use of System.out by a logger.(ƒ§¢‹øÿÿÿÿ8³¹¥ö1J$66e9d05b-6646-48ae-a7c0-713da85181db
+
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8ô×Ä¦ö1J$d0cf611a-d176-4bab-958a-d403f32788e5
+
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8õ×Ä¦ö1J$bb572c0a-aec0-4720-a3fb-393f0bb970cc
+
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8õ×Ä¦ö1J$4ddd7da8-9332-4d0f-b2aa-9123cad64cde

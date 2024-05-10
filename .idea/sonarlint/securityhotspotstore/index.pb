@@ -15,3 +15,7 @@ N
 src/regex/RegexUserChoise.java,5/4/54f5a30ae9d01bde2e265ed42989eaa18464d15b
 W
 'test/regexTest/RegexUserChoiseTest.java,b/0/b0783373934f477d9b166d218d7dc0d52854d7ca
+X
+(test/regexTest/RegexPhoneNumberTest.java,0/6/0600d11486b39ece27ada8feec842ff14710e448
+I
+src/regex/RegexEmail.java,0/b/0b0f4c6a2e7c3efe4020ca98b291d1f50382ac7d
