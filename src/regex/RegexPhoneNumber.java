@@ -1,6 +1,6 @@
 package regex;
 
-public class RegexPhoneNumber extends Regex{
+public class RegexPhoneNumber implements Regex{
     private final String PhoneNumberPattern ="";
     public RegexPhoneNumber(){
         super();

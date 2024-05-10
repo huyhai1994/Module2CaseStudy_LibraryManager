@@ -1,14 +1,14 @@
 
-£	java:S116"\Rename this field "UserChoisePattern" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á·¢Îøÿÿÿÿ8ûÖ«Šö1J$adaf5212-4637-4195-9da1-8d62b6f71978
-i
-java:S1170"!Make this final field static too.(Á·¢Îøÿÿÿÿ8üÖ«Šö1J$4b5a7404-80e7-4fb3-a4c4-241a7add52ef
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôñ¢ 8ýÖ«Šö1J$dd0e4e8c-c439-4e8f-a6fd-8151511527aa
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œóâ¼8ýÖ«Šö1J$ecb855ac-4bbc-4edb-a591-745da65fcd08
-É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Ì–Üùÿÿÿÿ8þÖ«Šö1J$88619143-4af9-4a34-8e5a-c62f9b16189c
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ¹ûÂ8þÖ«Šö1J$7d052ade-b1ce-4dde-8c24-e9ac41d84a95
-r	java:S106
-"+Replace this use of System.out by a logger.(ÞžÒ—üÿÿÿÿ8ƒ×«Šö1J$8acbc75e-10f5-42f8-ad1f-77c7cc31643b
+}	java:S116"\Rename this field "UserChoisePattern" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á·¢Îøÿÿÿÿ8ßºøŒö1
+C
+java:S1170"!Make this final field static too.(Á·¢Îøÿÿÿÿ8áºøŒö1
+ž
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôñ¢ 8âºøŒö1
+ž
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œóâ¼8ãºøŒö1
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Ì–Üùÿÿÿÿ8äºøŒö1
+ž
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ¹ûÂ8äºøŒö1
+L	java:S106
+"+Replace this use of System.out by a logger.(ÞžÒ—üÿÿÿÿ8îºøŒö1

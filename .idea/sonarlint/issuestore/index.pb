@@ -5,10 +5,6 @@ B
 src/menu/Menu.java,b/5/b57a6028d340a2df5ff1d52f953a0ad38eba9b8c
 D
 src/login/Login.java,f/b/fb0c51a8e175307c9571a4228687626d272054ca
-H
-src/login/UserLogin.java,b/5/b5aa1b6e1be93d043e05b5388b898a0ae66b31a7
-F
-src/login/NewUser.java,5/7/576743477145a4fa90f0e0f3ce057e2b8bb20b39
 B
 src/user/User.java,a/c/acab9b4a4a5b7d4adde7cee922ab534a863aaba4
 D

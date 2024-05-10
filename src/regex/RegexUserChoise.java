@@ -1,6 +1,6 @@
 package regex;
 
-public class RegexUserChoise extends Regex{
+public class RegexUserChoise implements Regex{
     private final String UserChoisePattern = "[0-2]";
     public RegexUserChoise(){
 
