@@ -1,8 +1,8 @@
 
-	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8ËÙ Ëö1J$d2ea4794-e2ab-448b-ba89-06915e02ff2d
+	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8ËÙ Ëö1J$51371c03-f79d-4cc6-b703-8afa11260ec3
 £	java:S116
-"\Rename this field "REGEX_USER_CHOISE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Â‚ùÿÿÿÿ8¸§Ëö1J$34af6502-bba4-4618-b7de-6776f53e41a2
-p	java:S116"ORename this field "MENU" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰½ âıÿÿÿÿ8Úİ±Ëö1
-d	java:S131""Add a default case to this switch.(‘ ß8İÙ Ëö1J$313e5fbd-8a2d-4909-b21e-4d936cb02ba0
-m	java:S106'"+Replace this use of System.out by a logger.(£áš´8âÙ Ëö1J$38f2a2ff-2b8f-4266-bf05-999bc5a84612
-m	java:S106+"+Replace this use of System.out by a logger.(Ş®üè8äÙ Ëö1J$3dd4733f-4511-42fb-b1ce-49161d7d694e
+"\Rename this field "REGEX_USER_CHOISE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Â‚ùÿÿÿÿ8¸§Ëö1J$a27e6316-1ba3-4409-b9c4-b65ace2416df
+–	java:S116"ORename this field "MENU" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰½ âıÿÿÿÿ8Úİ±Ëö1J$ebfcfe69-2d77-45f8-8053-7e68e877f932
+d	java:S131""Add a default case to this switch.(‘ ß8İÙ Ëö1J$331e6f0d-e66e-4f97-9f58-d0db404c2b59
+m	java:S106'"+Replace this use of System.out by a logger.(£áš´8âÙ Ëö1J$17debece-67a3-4583-875a-3547252cc5d2
+m	java:S106+"+Replace this use of System.out by a logger.(Ş®üè8äÙ Ëö1J$9742f8a2-bfbb-4331-a54a-06fe14124c85

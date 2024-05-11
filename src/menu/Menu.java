@@ -5,9 +5,6 @@ import controller.Controller;
 import java.util.Scanner;
 
 public class Menu {
-    public static final int ONE = 1;
-    public static final int TWO = 2;
-    public static final int ZERO = 0;
     public static int numberOfMenuObject = 0;
     private static Menu menu;
 
@@ -33,7 +30,6 @@ public class Menu {
     }
 
     public void getUserInputAndNavigatingTheLogin() {
-        printWelcome();
         printUserOptions();
         Scanner userInput = createNewScanner();
         Controller controller = Controller.createController();
@@ -41,6 +37,7 @@ public class Menu {
     }
 
     public void run() {
+        printWelcome();
         getUserInputAndNavigatingTheLogin();
     }
 
