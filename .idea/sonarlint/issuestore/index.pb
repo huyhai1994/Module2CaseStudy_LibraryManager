@@ -21,3 +21,7 @@ I
 src/regex/RegexEmail.java,0/b/0b0f4c6a2e7c3efe4020ca98b291d1f50382ac7d
 R
 "test/regexTest/RegexEmailTest.java,9/c/9c2bb271dc463de3b31f8ebaf463463500e1cfe8
+G
+src/ConstantNumber.java,2/2/22673a4f2052e608d51f4f34944b2678bf729b3f
+L
+test/ConstantNumberTest.java,1/7/1773f2d3205969d9b7c96679c8b894a131f8af50

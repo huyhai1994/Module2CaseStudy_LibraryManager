@@ -114,4 +114,33 @@ class RegexEmailTest {
         assertFalse(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter12@gmail.com"));
     }
 
+    @Test
+    void testRegexEmailAtSignCodeGymVn() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertTrue(regexEmail.isMatch("NguyenVanA123@CodeGym.vn"));
+    }
+
+    @Test
+    void testRegexEmailAtSignEduVn() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertTrue(regexEmail.isMatch("NguyenVanA123@edu.vn"));
+    }
+
+    @Test
+    void testRegexEmailDotAtSignEduVn() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertTrue(regexEmail.isMatch("A.Nguyen1992@edu.vn"));
+    }
+
+    @Test
+    void testRegexEmailSpecialCaseAtSignEduVn() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertTrue(regexEmail.isMatch("A.Nguyen~1997@edu.vn"));
+    }
+
+    @Test
+    void testRegexEmailSpecialCaseAtSignBeautyVn() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertTrue(regexEmail.isMatch("HaLinh@Beauty.vn"));
+    }
 }

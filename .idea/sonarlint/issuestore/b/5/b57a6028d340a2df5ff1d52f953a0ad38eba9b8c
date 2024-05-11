@@ -1,14 +1,11 @@
 
+	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8ÏªÚ¶ö1J$83dafc88-e702-4c08-a8da-15f0c2b375d7
 ™
-java:S1450"VRemove the "scanner" field and declare it as a local variable in the relevant methods.(Ù‘Ğ8‚İ’‹ö1J$bf080eeb-2f6f-4e9a-be22-9d9293d3a098
+java:S1450"VRemove the "scanner" field and declare it as a local variable in the relevant methods.(Ù‘Ğ8´Á­¶ö1J$57cd47f9-9bb1-445d-98cf-2fd729127163
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8â¶˜‹ö1J$8fea0e15-cc6d-45e3-9f85-176c57c52505
-m	java:S106!"+Replace this use of System.out by a logger.(—ê¼ú8İ’‹ö1J$87162067-28b0-43d9-bc8b-fff058720da9
-m	java:S106&"+Replace this use of System.out by a logger.(’¾¯¸8İ’‹ö1J$37ecabf0-31dc-4eb9-9f48-6ef93868830e
-i	java:S1315""Add a default case to this switch.(µ‹ÍÏúÿÿÿÿ8™İ’‹ö1J$81b704be-d675-4244-8a24-7d2cd91f3482
-“
-java:S13015"KReplace this "switch" statement by "if" statements to increase readability.(µ‹ÍÏúÿÿÿÿ8šİ’‹ö1J$19c0e48e-08c8-4dd3-9132-6b91da35afb2
-r	java:S106F"+Replace this use of System.out by a logger.(‘–»ûÿÿÿÿ8£İ’‹ö1J$44ab283f-e872-4c75-84bd-81383f3ffbc2
-r	java:S106J"+Replace this use of System.out by a logger.(çÅŞÌúÿÿÿÿ8¥İ’‹ö1J$83192fa2-e452-47ab-9954-11920f541a7b
-v
-java:S1068"3Remove this unused "regexUserChoise" private field.(†ëŸª8§İ’‹ö1J$853a9fca-4034-48c8-ac69-9f5c66b96253
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8¶Á­¶ö1J$53edb392-b650-4d24-9f27-bad2e3e555c9
+m	java:S106#"+Replace this use of System.out by a logger.(—ê¼ú8¼Á­¶ö1J$3c19d707-23bb-4df7-9693-a2a5d35355c8
+m	java:S106("+Replace this use of System.out by a logger.(’¾¯¸8¼Á­¶ö1J$7ba38124-39c6-43c2-8cfb-54876e725516
+d	java:S131=""Add a default case to this switch.(‘ ß8ÂÁ­¶ö1J$220611fe-05f7-4ceb-89bf-dbd5dfdcc792
+r	java:S106W"+Replace this use of System.out by a logger.(‘–»ûÿÿÿÿ8ÉÁ­¶ö1J$23daeaa7-ccf9-4834-8f87-e654779895b3
+r	java:S106["+Replace this use of System.out by a logger.(çÅŞÌúÿÿÿÿ8ÉÁ­¶ö1J$6103f9d8-318c-40e8-b41e-c5405a1ec0b5

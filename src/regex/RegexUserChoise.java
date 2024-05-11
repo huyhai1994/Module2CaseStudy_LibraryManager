@@ -7,12 +7,7 @@ public class RegexUserChoise implements Regex {
 
     @Override
     public void printGuideLine() {
-        System.out.println("");
-    }
-
-    @Override
-    public void pattern() {
-
+        System.out.println("Ban can nhap so 0,1 va 2...");
     }
 
     @Override
@@ -23,11 +18,16 @@ public class RegexUserChoise implements Regex {
 
     @Override
     public void printMatch() {
-
+        System.out.println("Ban da nhap dung...");
     }
 
     @Override
     public void printNotMatch() {
+        System.out.println("Ban da nhap sai, vui long nhap lai...");
+        printGuideLine();
+    }
 
+    public boolean isNotMatch(String userChoise) {
+        return !isMatch(userChoise);
     }
 }

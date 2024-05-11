@@ -1,15 +1,11 @@
 
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôñ¢ 8ÈÖ–ö1J$e03c377b-dadd-4d7f-8a8d-abc312098c07
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œóâ¼8ÉÖ–ö1J$5c46de0c-6c1e-4409-9423-b346e16cdbfa
-É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Ì–Üùÿÿÿÿ8ÉÖ–ö1J$3414a503-7c50-4959-a7b6-569824fd8f39
 r	java:S106
-"+Replace this use of System.out by a logger.(ƒ§¢‹øÿÿÿÿ8³¹¥ö1J$708d024f-4f0b-4f5b-9a59-1131c9ae27ca
+"+Replace this use of System.out by a logger.(ƒ§¢‹øÿÿÿÿ8³¹¥ö1J$1d2f720a-c0ea-4aba-abdd-2bce324bd288
 
-java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8ô×Ä¦ö1J$2105633a-4841-40f9-be1d-0b68cbd75bdb
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8ô×Ä¦ö1J$c1f0cb03-4993-4119-9102-57915e0f8e62
 
-java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8õ×Ä¦ö1J$bd38a05b-5581-4bbf-84b7-c83ac962f42b
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8õ×Ä¦ö1J$34379039-ffcd-4095-86dc-8f82767a2350
 
-java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8õ×Ä¦ö1J$5992b44a-fee7-408f-bf21-9fe3a05f4a84
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8õ×Ä¦ö1J$de5d2f83-1330-4b41-ae78-c70c661815a3
+m	java:S106"+Replace this use of System.out by a logger.(˜¡üÖ8¹Ù„²ö1J$b7904f62-4805-4757-9679-5950cd36c24b
+m	java:S106"+Replace this use of System.out by a logger.(–Ì•8Ô†²ö1J$bb4fc33b-97da-4965-9edf-881027ad6cc6
