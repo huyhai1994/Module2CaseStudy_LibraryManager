@@ -10,8 +10,6 @@ public class Menu {
     public static final int ZERO = 0;
     private static int numberOfMenuObject = 0;
     private static Menu menu;
-    private int options;
-    private Scanner scanner;
     private RegexUserChoise regexUserChoise;
 
     private Menu() {
@@ -43,7 +41,7 @@ public class Menu {
     public void getUserInputAndNavigatingTheLogin() {
         printWelcome();
         printUserOptions();
-        scanner = createNewScanner();
+        Scanner scanner = createNewScanner();
         int userChoise = scanner.nextInt();
         if (isUserRegexNotMatch(userChoise)) {
             regexUserChoise.printNotMatch();

@@ -1,13 +1,9 @@
 
-	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8äáª·ö1J$49bce2ea-4f4e-4c10-9487-b2741aafc5ab
-™
-java:S1450"VRemove the "scanner" field and declare it as a local variable in the relevant methods.(Ù‘Ğ8õáª·ö1J$964ed1a0-7918-4795-9822-76f3e0ef64e6
+	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8äáª·ö1J$9d89a878-814b-4043-9f6c-39604f1934b0
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8öáª·ö1J$e8003f53-338a-4af0-81d5-b06bb7d4d86a
-m	java:S106#"+Replace this use of System.out by a logger.(—ê¼ú8ûáª·ö1J$3c434963-e38d-45af-837f-76325de13238
-m	java:S106("+Replace this use of System.out by a logger.(’¾¯¸8üáª·ö1J$6978bbbd-1daf-4a3a-9294-325aa4e3295c
-d	java:S1314""Add a default case to this switch.(‘ ß8€âª·ö1J$36cc8597-7d78-4666-96f4-b5ecd8a754c2
-r	java:S106N"+Replace this use of System.out by a logger.(‘–»ûÿÿÿÿ8ˆâª·ö1J$dd70567a-4c6c-4f1f-9086-b2980800959f
-r	java:S106R"+Replace this use of System.out by a logger.(çÅŞÌúÿÿÿÿ8‰âª·ö1J$f328d5ad-1229-4795-b7ac-271998b2ee15
-M
-java:S1068"+Remove this unused "options" private field.(ì½´Íûÿÿÿÿ8µ‹¶·ö1
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8öáª·ö1J$e2733b77-d370-4ae6-9ece-9b1c518b57a4
+m	java:S106!"+Replace this use of System.out by a logger.(—ê¼ú8ûáª·ö1J$7b843bd2-978e-4ac7-aeda-d6df79fd150f
+m	java:S106&"+Replace this use of System.out by a logger.(’¾¯¸8üáª·ö1J$e8b8bf9e-9478-42b9-9668-ba1f6f28ece5
+d	java:S1312""Add a default case to this switch.(‘ ß8€âª·ö1J$0eda9b32-253b-442a-8037-89790ba67906
+r	java:S106L"+Replace this use of System.out by a logger.(‘–»ûÿÿÿÿ8ˆâª·ö1J$75d88252-4fc6-4a62-a5ad-ce8835fa7be9
+r	java:S106P"+Replace this use of System.out by a logger.(çÅŞÌúÿÿÿÿ8‰âª·ö1J$703571f7-0d96-4553-9a5e-25ccbb167c95
