@@ -19,3 +19,5 @@ X
 (test/regexTest/RegexPhoneNumberTest.java,0/6/0600d11486b39ece27ada8feec842ff14710e448
 I
 src/regex/RegexEmail.java,0/b/0b0f4c6a2e7c3efe4020ca98b291d1f50382ac7d
+R
+"test/regexTest/RegexEmailTest.java,9/c/9c2bb271dc463de3b31f8ebaf463463500e1cfe8

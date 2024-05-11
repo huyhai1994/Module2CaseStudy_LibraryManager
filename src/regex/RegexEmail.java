@@ -13,7 +13,8 @@ public class RegexEmail implements Regex {
 
     @Override
     public boolean isMatch(String inputString) {
-        return false;
+        String emailPattern = "^[a-zA-Z0-9]{6,32}$";
+        return inputString.matches(emailPattern);
     }
 
     @Override
