@@ -18,4 +18,19 @@ public class Admin extends User {
         this.id = id;
     }
 
+    public String getEmail() {
+        return email.getData();
+    }
+
+    public void setEmail(String email) {
+        this.email.setData(email);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

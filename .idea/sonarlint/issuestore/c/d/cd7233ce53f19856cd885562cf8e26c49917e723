@@ -1,10 +1,6 @@
 
-F
-java:S1068")Remove this unused "email" private field.(Õå¢¹8õ‘›Íö1
-Q
-java:S1068"/Remove this unused "phoneNumber" private field.(ìÅÉûÿÿÿÿ8ö‘›Íö1
-E
-java:S1068	"(Remove this unused "name" private field.(Ë¥¼8ö‘›Íö1
-H
+w
+java:S1068"/Remove this unused "phoneNumber" private field.(ìÅÉûÿÿÿÿ8¶æÌÍö1J$d43ba90d-a35e-4a5e-99ee-644eac2a0703
+n
 java:S1068
-"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8ö‘›Íö1
+"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8·æÌÍö1J$d2cff75e-c237-41c5-8a74-bac20dd65a7b

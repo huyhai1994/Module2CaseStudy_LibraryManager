@@ -55,3 +55,5 @@ U
 %test/user/relatedinfos/EmailTest.java,e/1/e1ca46f20412647d4d7289fbb1f7ac113016826d
 [
 +test/user/relatedinfos/PhoneNumberTest.java,9/7/975790a85ae343b5112722df2c2b2dbd83afce68
+M
+test/user/type/AdminTest.java,1/5/1539196d4829965d4cd7d1ebd0ffa1830408a3ff
