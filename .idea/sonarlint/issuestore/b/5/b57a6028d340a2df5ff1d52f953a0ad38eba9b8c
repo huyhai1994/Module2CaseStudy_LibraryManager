@@ -1,11 +1,13 @@
 
-	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8ÏªÚ¶ö1J$83dafc88-e702-4c08-a8da-15f0c2b375d7
+	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8äáª·ö1J$49bce2ea-4f4e-4c10-9487-b2741aafc5ab
 ™
-java:S1450"VRemove the "scanner" field and declare it as a local variable in the relevant methods.(Ù‘Ğ8´Á­¶ö1J$57cd47f9-9bb1-445d-98cf-2fd729127163
+java:S1450"VRemove the "scanner" field and declare it as a local variable in the relevant methods.(Ù‘Ğ8õáª·ö1J$964ed1a0-7918-4795-9822-76f3e0ef64e6
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8¶Á­¶ö1J$53edb392-b650-4d24-9f27-bad2e3e555c9
-m	java:S106#"+Replace this use of System.out by a logger.(—ê¼ú8¼Á­¶ö1J$3c19d707-23bb-4df7-9693-a2a5d35355c8
-m	java:S106("+Replace this use of System.out by a logger.(’¾¯¸8¼Á­¶ö1J$7ba38124-39c6-43c2-8cfb-54876e725516
-d	java:S131=""Add a default case to this switch.(‘ ß8ÂÁ­¶ö1J$220611fe-05f7-4ceb-89bf-dbd5dfdcc792
-r	java:S106W"+Replace this use of System.out by a logger.(‘–»ûÿÿÿÿ8ÉÁ­¶ö1J$23daeaa7-ccf9-4834-8f87-e654779895b3
-r	java:S106["+Replace this use of System.out by a logger.(çÅŞÌúÿÿÿÿ8ÉÁ­¶ö1J$6103f9d8-318c-40e8-b41e-c5405a1ec0b5
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8öáª·ö1J$e8003f53-338a-4af0-81d5-b06bb7d4d86a
+m	java:S106#"+Replace this use of System.out by a logger.(—ê¼ú8ûáª·ö1J$3c434963-e38d-45af-837f-76325de13238
+m	java:S106("+Replace this use of System.out by a logger.(’¾¯¸8üáª·ö1J$6978bbbd-1daf-4a3a-9294-325aa4e3295c
+d	java:S1314""Add a default case to this switch.(‘ ß8€âª·ö1J$36cc8597-7d78-4666-96f4-b5ecd8a754c2
+r	java:S106N"+Replace this use of System.out by a logger.(‘–»ûÿÿÿÿ8ˆâª·ö1J$dd70567a-4c6c-4f1f-9086-b2980800959f
+r	java:S106R"+Replace this use of System.out by a logger.(çÅŞÌúÿÿÿÿ8‰âª·ö1J$f328d5ad-1229-4795-b7ac-271998b2ee15
+M
+java:S1068"+Remove this unused "options" private field.(ì½´Íûÿÿÿÿ8µ‹¶·ö1

@@ -43,23 +43,6 @@ class MenuTest {
     }
 
     @Test
-    void getOptions() {
-        int expected = 0;
-        menu = Menu.getInstance();
-        menu.setOptions(0);
-        int result = menu.getOptions();
-        assertEquals(expected, result);
-    }
-
-    @Test
-    void setOptions() {
-        int expected = 0;
-        menu = Menu.getInstance();
-        int result = menu.setOptions(0);
-        assertEquals(expected, result);
-    }
-
-    @Test
     void isUserRegexNotMatch() {
         menu = Menu.getInstance();
         assertTrue(menu.isUserRegexNotMatch(-1));

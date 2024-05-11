@@ -40,15 +40,6 @@ public class Menu {
         System.out.println("1. Dang Nhap\n2. Tao tai khoan moi\n0. Thoat chuong trinh\n");
     }
 
-    public int getOptions() {
-        return options;
-    }
-
-    public int setOptions(int userChoice) {
-        this.options = userChoice;
-        return options;
-    }
-
     public void getUserInputAndNavigatingTheLogin() {
         printWelcome();
         printUserOptions();
