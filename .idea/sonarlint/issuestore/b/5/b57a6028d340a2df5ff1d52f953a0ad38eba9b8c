@@ -1,9 +1,11 @@
 
-	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8äáª·ö1J$9d89a878-814b-4043-9f6c-39604f1934b0
+{
+java:S1104"^Make numberOfMenuObject a static final constant or non-public and provide accessors if needed.(ù±›µ8¿ÂÒÂö1
+U
+java:S1444"8Make this "public static numberOfMenuObject" field final(ù±›µ8ÀÂÒÂö1
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8öáª·ö1J$e2733b77-d370-4ae6-9ece-9b1c518b57a4
-m	java:S106!"+Replace this use of System.out by a logger.(—ê¼ú8ûáª·ö1J$7b843bd2-978e-4ac7-aeda-d6df79fd150f
-m	java:S106&"+Replace this use of System.out by a logger.(’¾¯¸8üáª·ö1J$e8b8bf9e-9478-42b9-9668-ba1f6f28ece5
-d	java:S1312""Add a default case to this switch.(‘ ß8€âª·ö1J$0eda9b32-253b-442a-8037-89790ba67906
-r	java:S106L"+Replace this use of System.out by a logger.(‘–»ûÿÿÿÿ8ˆâª·ö1J$75d88252-4fc6-4a62-a5ad-ce8835fa7be9
-r	java:S106P"+Replace this use of System.out by a logger.(çÅŞÌúÿÿÿÿ8‰âª·ö1J$703571f7-0d96-4553-9a5e-25ccbb167c95
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8ä³µÂö1J$a8b1f3c2-bef9-4404-a7c6-ab1c62753382
+m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8ê³µÂö1J$58183e14-767c-46d7-9157-c391bdeb6980
+m	java:S106""+Replace this use of System.out by a logger.(’¾¯¸8ì³µÂö1J$73c80b8e-4814-475c-a5e4-7780c1e35d9c
+z
+java:S1128"2Remove this unused import 'regex.RegexUserChoise'.(òÃ¹÷úÿÿÿÿ8ÇÇÉÂö1J$afce1423-3252-4aca-a74e-dc8a8571a313

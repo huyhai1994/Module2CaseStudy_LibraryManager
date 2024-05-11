@@ -15,6 +15,11 @@ public class RegexEmail implements Regex {
     }
 
     @Override
+    public boolean isNotMatch(String inputString) {
+        return false;
+    }
+
+    @Override
     public void printMatch() {
         System.out.println("ban da nhap dung...");
     }

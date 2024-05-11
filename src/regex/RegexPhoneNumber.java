@@ -17,6 +17,11 @@ public class RegexPhoneNumber implements Regex {
     }
 
     @Override
+    public boolean isNotMatch(String inputString) {
+        return false;
+    }
+
+    @Override
     public void printMatch() {
         System.out.println("Ban da nhap dung...");
     }

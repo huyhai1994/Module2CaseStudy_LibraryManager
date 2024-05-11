@@ -1,11 +1,11 @@
 
 r	java:S106
-"+Replace this use of System.out by a logger.(ƒ§¢‹øÿÿÿÿ8³¹¥ö1J$1d2f720a-c0ea-4aba-abdd-2bce324bd288
+"+Replace this use of System.out by a logger.(ƒ§¢‹øÿÿÿÿ8³¹¥ö1J$0634e25d-d57d-4eb6-9a6e-2ca8d3c5186e
 
-java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8ô×Ä¦ö1J$c1f0cb03-4993-4119-9102-57915e0f8e62
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8ô×Ä¦ö1J$6bbea441-d540-4027-b474-01b729b061b3
 
-java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8õ×Ä¦ö1J$34379039-ffcd-4095-86dc-8f82767a2350
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8õ×Ä¦ö1J$033f2b41-abaa-4ce8-be86-043c69133d05
 
-java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8õ×Ä¦ö1J$de5d2f83-1330-4b41-ae78-c70c661815a3
-m	java:S106"+Replace this use of System.out by a logger.(˜¡üÖ8¹Ù„²ö1J$b7904f62-4805-4757-9679-5950cd36c24b
-m	java:S106"+Replace this use of System.out by a logger.(–Ì•8Ô†²ö1J$bb4fc33b-97da-4965-9edf-881027ad6cc6
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•è8õ×Ä¦ö1J$c4a83657-f0f0-4468-bb55-d4ecf378f881
+m	java:S106"+Replace this use of System.out by a logger.(˜¡üÖ8¹Ù„²ö1J$876c246f-a81b-46b5-adcc-40f5e5eaca43
+m	java:S106"+Replace this use of System.out by a logger.(–Ì•8Ô†²ö1J$cd23dd2a-03dc-4ccf-973d-86ffef45be35

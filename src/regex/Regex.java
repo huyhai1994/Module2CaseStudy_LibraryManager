@@ -5,6 +5,8 @@ public interface Regex {
 
     boolean isMatch(String inputString);
 
+    boolean isNotMatch(String inputString);
+
     void printMatch();
 
     void printNotMatch();

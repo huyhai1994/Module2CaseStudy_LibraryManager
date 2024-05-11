@@ -14,7 +14,7 @@ class MenuTest {
     @Test
     void getNumberOfMenuObjectNotCreateMenu() {
         int expected = 1;
-        int result = Menu.getNumberOfMenuObject();
+        int result = Menu.numberOfMenuObject;
         assertEquals(expected, result);
     }
 
@@ -29,7 +29,7 @@ class MenuTest {
     void createAnMenuInstance() {
         int expected = 1;
         Menu.getInstance();
-        int result = Menu.getNumberOfMenuObject();
+        int result = Menu.numberOfMenuObject;
         assertEquals(expected, result);
     }
 
@@ -38,16 +38,9 @@ class MenuTest {
         int expected = 1;
         Menu.getInstance();
         Menu.getInstance();
-        int result = Menu.getNumberOfMenuObject();
+        int result = Menu.numberOfMenuObject;
         assertEquals(expected, result);
     }
-
-    @Test
-    void isUserRegexNotMatch() {
-        menu = Menu.getInstance();
-        assertTrue(menu.isUserRegexNotMatch(-1));
-    }
-
 
     public static void main(String[] args) {
         while (true) {

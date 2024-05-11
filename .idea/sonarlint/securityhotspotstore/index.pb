@@ -5,8 +5,6 @@ B
 src/menu/Menu.java,b/5/b57a6028d340a2df5ff1d52f953a0ad38eba9b8c
 D
 src/login/Login.java,f/b/fb0c51a8e175307c9571a4228687626d272054ca
-B
-src/user/User.java,a/c/acab9b4a4a5b7d4adde7cee922ab534a863aaba4
 D
 src/regex/Regex.java,1/6/16e975102256a6ec5358027909de9a4304a08b33
 O
@@ -27,8 +25,6 @@ L
 test/ConstantNumberTest.java,1/7/1773f2d3205969d9b7c96679c8b894a131f8af50
 V
 &src/user/relatedinfos/PhoneNumber.java,0/d/0d635eaf81fc3953f1d2f24c993815547c592b2a
-P
- src/user/relatedinfos/Email.java,5/8/58401aba58e08d7163aaa50126e34d3178c0870c
 [
 +src/user/relatedinfos/UserRelatedInfos.java,9/1/91136fa99b480379bcbba3af6f522d47c3c01c07
 H
@@ -39,18 +35,6 @@ G
 src/user/type/User.java,5/1/5183f065a746a1cae5a90ef8c9003cb5080a399a
 O
 src/user/operator/Operator.java,9/b/9b38ffd8bcbc6211435820787c3d7e48384d1ba7
-M
-src/user/manager/Manager.java,a/1/a116beb289bcaccb1a13ce4cc12d7912dc377b18
-L
-src/user/manager/Create.java,a/c/ac2a26250a14110d50418d74406468e7d6d9b74c
-J
-src/user/manager/Read.java,f/2/f2f301ebf305deb644d7650dfbf7302dc251d27e
-L
-src/user/manager/Update.java,e/7/e77871d5db2269cc47bf622b5631ce2ed44282ec
-L
-src/user/manager/Delete.java,7/a/7a23268cf0b3ab5356fe6b81937ff0c07128fb7d
-V
-&src/user/manageroperation/Manager.java,0/e/0eb0b2c1f87479cd9afd322aeb33bc01467fd578
 U
 %src/user/manageroperation/Delete.java,8/e/8e46898ddb77712d8d7f31ce3be86182b5e1f47b
 U
@@ -61,3 +45,7 @@ U
 %src/user/manageroperation/Update.java,c/d/cdd7b948412358ef076aae22e01711db624cea43
 c
 3src/user/manageroperation/UserManagerOperation.java,7/f/7f6741d59976cf2841df172c80c485d0d4288992
+N
+src/controller/Controller.java,5/d/5d812c679aa6fb5aae9c123378f48ab7acd0c879
+S
+#test/controller/ControllerTest.java,b/2/b2d2bb5c457b0b7d6e12596517436b9930822605

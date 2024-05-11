@@ -1,5 +1,6 @@
 package menu;
 
+import controller.Controller;
 import regex.RegexUserChoise;
 
 import java.util.Scanner;
@@ -8,9 +9,8 @@ public class Menu {
     public static final int ONE = 1;
     public static final int TWO = 2;
     public static final int ZERO = 0;
-    private static int numberOfMenuObject = 0;
+    public static int numberOfMenuObject = 0;
     private static Menu menu;
-    private RegexUserChoise regexUserChoise;
 
     private Menu() {
     }
@@ -23,10 +23,6 @@ public class Menu {
             return menu;
         }
         return menu;
-    }
-
-    public static int getNumberOfMenuObject() {
-        return numberOfMenuObject;
     }
 
     public void printWelcome() {
@@ -42,26 +38,8 @@ public class Menu {
         printWelcome();
         printUserOptions();
         Scanner scanner = createNewScanner();
-        int userChoise = scanner.nextInt();
-        if (isUserRegexNotMatch(userChoise)) {
-            regexUserChoise.printNotMatch();
-            run();
-        }
-        switch (userChoise) {
-            case ONE:
-                login();
-                break;
-            case TWO:
-                newUser();
-                break;
-            case ZERO:
-                throw new RuntimeException("Da thoat chuong trinh...");
-        }
-    }
-
-    public boolean isUserRegexNotMatch(int userChoise) {
-        regexUserChoise = new RegexUserChoise();
-        return regexUserChoise.isNotMatch(userChoise + "");
+        Controller controller = Controller.createController();
+        controller.navigatingTheLogin(scanner.nextInt());
     }
 
     public void run() {
@@ -70,13 +48,5 @@ public class Menu {
 
     public Scanner createNewScanner() {
         return new Scanner(System.in);
-    }
-
-    private void newUser() {
-        System.out.println("New user here...");
-    }
-
-    private void login() {
-        System.out.println("New login here...");
     }
 }
