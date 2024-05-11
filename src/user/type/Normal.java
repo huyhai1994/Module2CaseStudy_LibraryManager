@@ -1,4 +1,4 @@
 package user.type;
 
-public class Normal implements User {
+public class Normal extends User {
 }

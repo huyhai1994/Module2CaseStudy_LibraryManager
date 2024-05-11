@@ -49,3 +49,9 @@ N
 src/controller/Controller.java,5/d/5d812c679aa6fb5aae9c123378f48ab7acd0c879
 S
 #test/controller/ControllerTest.java,b/2/b2d2bb5c457b0b7d6e12596517436b9930822605
+P
+ src/user/relatedinfos/Email.java,5/8/58401aba58e08d7163aaa50126e34d3178c0870c
+U
+%test/user/relatedinfos/EmailTest.java,e/1/e1ca46f20412647d4d7289fbb1f7ac113016826d
+[
++test/user/relatedinfos/PhoneNumberTest.java,9/7/975790a85ae343b5112722df2c2b2dbd83afce68

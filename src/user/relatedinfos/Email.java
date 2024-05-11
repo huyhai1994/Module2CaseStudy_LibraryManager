@@ -1,15 +1,17 @@
 package user.relatedinfos;
 
-import regex.RegexPhoneNumber;
+import regex.RegexEmail;
 
-public class PhoneNumber implements UserRelatedInfos {
+public class Email implements UserRelatedInfos {
+
     private String data;
-    public static final RegexPhoneNumber REGEX_PHONE_NUMBER = new RegexPhoneNumber();
+    private static final RegexEmail REGEX_EMAIL = new RegexEmail();
 
-    public PhoneNumber() {
+    public Email() {
+
     }
 
-    public PhoneNumber(String inputData) {
+    public Email(String inputData) {
         this.data = inputData;
     }
 
@@ -25,9 +27,8 @@ public class PhoneNumber implements UserRelatedInfos {
 
     @Override
     public boolean isMatchRegex() {
-        if (REGEX_PHONE_NUMBER.isMatch(this.data)) {
+        if (REGEX_EMAIL.isMatch(this.data))
             return true;
-        }
         return false;
     }
 }

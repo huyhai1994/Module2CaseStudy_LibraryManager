@@ -1,7 +1,6 @@
 package menu;
 
 import controller.Controller;
-import regex.RegexUserChoise;
 
 import java.util.Scanner;
 
@@ -29,7 +28,6 @@ public class Menu {
         System.out.println("\n--------Chao mung toi thu vien so---------\n");
     }
 
-
     public void printUserOptions() {
         System.out.println("1. Dang Nhap\n2. Tao tai khoan moi\n0. Thoat chuong trinh\n");
     }
@@ -37,9 +35,9 @@ public class Menu {
     public void getUserInputAndNavigatingTheLogin() {
         printWelcome();
         printUserOptions();
-        Scanner scanner = createNewScanner();
+        Scanner userInput = createNewScanner();
         Controller controller = Controller.createController();
-        controller.navigatingTheLogin(scanner.nextInt());
+        controller.navigatingTheLogin(userInput.nextInt());
     }
 
     public void run() {

@@ -1,11 +1,9 @@
 
+¡
+java:S1104"^Make numberOfMenuObject a static final constant or non-public and provide accessors if needed.(ù±›µ8¿ÂÒÂö1J$e41a4361-c3a8-4753-92e7-c3d6aaa1c6cf
 {
-java:S1104"^Make numberOfMenuObject a static final constant or non-public and provide accessors if needed.(ù±›µ8¿ÂÒÂö1
-U
-java:S1444"8Make this "public static numberOfMenuObject" field final(ù±›µ8ÀÂÒÂö1
+java:S1444"8Make this "public static numberOfMenuObject" field final(ù±›µ8ÀÂÒÂö1J$35739057-1df2-41b5-a159-92c6609ad7db
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8ä³µÂö1J$a8b1f3c2-bef9-4404-a7c6-ab1c62753382
-m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8ê³µÂö1J$58183e14-767c-46d7-9157-c391bdeb6980
-m	java:S106""+Replace this use of System.out by a logger.(’¾¯¸8ì³µÂö1J$73c80b8e-4814-475c-a5e4-7780c1e35d9c
-z
-java:S1128"2Remove this unused import 'regex.RegexUserChoise'.(òÃ¹÷úÿÿÿÿ8ÇÇÉÂö1J$afce1423-3252-4aca-a74e-dc8a8571a313
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8ä³µÂö1J$ed9cd69e-3c3f-4b2e-8fbe-545e5963f5b4
+m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8ê³µÂö1J$5e87018e-f7ec-4ca4-8147-31aea35e996e
+m	java:S106 "+Replace this use of System.out by a logger.(’¾¯¸8ì³µÂö1J$ae178f80-c3f0-454e-b719-220211c80277

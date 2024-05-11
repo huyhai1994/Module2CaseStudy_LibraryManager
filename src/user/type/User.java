@@ -1,5 +1,4 @@
 package user.type;
 
-public interface User {
-
+public abstract class User {
 }

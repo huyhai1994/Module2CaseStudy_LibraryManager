@@ -11,7 +11,6 @@ class ControllerTest {
         int userChoise = -1;
         controller = Controller.createController();
         controller.navigatingTheLogin(userChoise);
-
     }
 
 
