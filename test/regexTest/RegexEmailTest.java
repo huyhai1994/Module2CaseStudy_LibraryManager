@@ -15,25 +15,25 @@ class RegexEmailTest {
     @Test
     void testRegexEmailTest6to32codeGy() {
         RegexEmail regexEmail = new RegexEmail();
-        assertTrue(regexEmail.isMatch("codeGy"));
+        assertFalse(regexEmail.isMatch("codeGy"));
     }
 
     @Test
     void testRegexEmailTest6to32CodeGym() {
         RegexEmail regexEmail = new RegexEmail();
-        assertTrue(regexEmail.isMatch("CodeGym"));
+        assertFalse(regexEmail.isMatch("CodeGym"));
     }
 
     @Test
     void testRegexEmailTest6to32CodeGymRaisingTheBarHanoiCenter() {
         RegexEmail regexEmail = new RegexEmail();
-        assertTrue(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter"));
+        assertFalse(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter"));
     }
 
     @Test
     void testRegexEmailTest6to32CodeGymRaisingTheBarHanoiCenter1() {
         RegexEmail regexEmail = new RegexEmail();
-        assertTrue(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter1"));
+        assertFalse(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter1"));
     }
 
     @Test
@@ -41,4 +41,77 @@ class RegexEmailTest {
         RegexEmail regexEmail = new RegexEmail();
         assertFalse(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter12"));
     }
+
+    @Test
+    void testRegexEmailAtSigncodeG() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertFalse(regexEmail.isMatch("codeG@"));
+    }
+
+    @Test
+    void testRegexEmailAtSigncodeGy() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertFalse(regexEmail.isMatch("codeGy@"));
+    }
+
+    @Test
+    void testRegexEmailAtSignCodeGym() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertFalse(regexEmail.isMatch("CodeGym@"));
+    }
+
+    @Test
+    void testRegexEmailAtSignCodeGymRaisingTheBarHanoiCenter() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertFalse(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter@"));
+    }
+
+    @Test
+    void testRegexEmailAtSignCodeGymRaisingTheBarHanoiCenter1() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertFalse(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter1@"));
+    }
+
+    @Test
+    void testRegexEmailAtSignCodeGymRaisingTheBarHanoiCenter12() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertFalse(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter12@"));
+    }
+
+    @Test
+    void testRegexEmailAtSigncodeGgmail() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertFalse(regexEmail.isMatch("codeG@gmail.com"));
+    }
+
+    @Test
+    void testRegexEmailAtSigncodeGygmail() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertTrue(regexEmail.isMatch("codeGy@gmail.com"));
+    }
+
+    @Test
+    void testRegexEmailAtSignCodeGymgmail() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertTrue(regexEmail.isMatch("CodeGym@gmail.com"));
+    }
+
+    @Test
+    void testRegexEmailAtSignCodeGymRaisingTheBarHanoiCentergmail() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertTrue(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter@gmail.com"));
+    }
+
+    @Test
+    void testRegexEmailAtSignCodeGymRaisingTheBarHanoiCenter1gmail() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertTrue(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter1@gmail.com"));
+    }
+
+    @Test
+    void testRegexEmailAtSignCodeGymRaisingTheBarHanoiCenter12gmail() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertFalse(regexEmail.isMatch("CodeGymRaisingTheBarHanoiCenter12@gmail.com"));
+    }
+
 }
