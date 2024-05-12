@@ -12,7 +12,6 @@ import user.type.Admin;
 
 public class Controller {
     public static final int SIGN_IN = 1;
-    public static final int SIGN_UP = 2;
     private RegexUserChoise regexUserChoise = new RegexUserChoise();
     private Menu menu = Menu.getInstance();
     private DataBase dataBase = DataBase.getInstance();
@@ -68,7 +67,7 @@ public class Controller {
         System.out.println(dataBase.getUsers());
     }
 
-    private void navigateBackToMenuIfRegexCheckFail(int userChoiceIndex) {
+    public void navigateBackToMenuIfRegexCheckFail(int userChoiceIndex) {
         if (checkRegexNotMatch(userChoiceIndex)) {
             menu.run();
         }

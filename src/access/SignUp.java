@@ -18,10 +18,10 @@ public class SignUp extends Access {
         menu.printNewAdminOrNewNormalUser();
         Scanner scanner = menu.createNewScanner();
         int userChoiceIndex = scanner.nextInt();
-        navigateBackToMenuIfRegexCheckFail(userChoiceIndex);
+        Controller controller = Controller.createController();
+        controller.navigateBackToMenuIfRegexCheckFail(userChoiceIndex);
         switch (userChoiceIndex) {
             case ONE:
-                Controller controller = Controller.createController();
                 controller.createAdminAccount();
                 break;
             case TWO:
@@ -29,14 +29,5 @@ public class SignUp extends Access {
             default:
                 menu.run();
         }
-
     }
-
-    private void navigateBackToMenuIfRegexCheckFail(int userChoiceIndex) {
-        Controller controller = Controller.createController();
-        if (controller.checkRegexNotMatch(userChoiceIndex)) {
-            menu.run();
-        }
-    }
-
 }
