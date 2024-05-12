@@ -59,7 +59,7 @@ public class Menu {
         System.out.println("1. Tai khoan Admin \n2. Tai khoan Binh thuong: \n");
     }
 
-    public void getUserInputAndNavigatingTheLogin() {
+    public void getUserInputAndNavigatingTheUserAccess() {
         printUserOptions();
         try {
             Scanner userInput = createNewScanner();
@@ -74,7 +74,7 @@ public class Menu {
 
     public void run() {
         printWelcome();
-        getUserInputAndNavigatingTheLogin();
+        getUserInputAndNavigatingTheUserAccess();
     }
 
     public Scanner createNewScanner() {
