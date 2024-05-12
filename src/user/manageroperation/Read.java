@@ -8,7 +8,7 @@ public class Read extends UserManagerOperation {
         database = DataBase.getInstance();
     }
 
-    public displayUsers() {
+    public void displayUsers() {
         database = DataBase.getInstance();
         for (User user : database.getUsers()) {
             System.out.println(user);

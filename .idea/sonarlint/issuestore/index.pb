@@ -63,3 +63,5 @@ J
 src/database/DataBase.java,0/b/0bda44d64d808cc434868a3358f137935626612c
 O
 test/database/DataBaseTest.java,8/b/8b7bcba7d73c6cec3a0df19e99ca344e32174a40
+X
+(test/user/manageroperation/ReadTest.java,8/5/856146442ed7595bc3f3cef43c8874fdf2a74394
