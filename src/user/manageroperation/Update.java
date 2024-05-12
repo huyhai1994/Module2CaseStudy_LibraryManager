@@ -1,4 +1,5 @@
 package user.manageroperation;
 
-public class Update implements UserManagerOperation {
+public class Update extends UserManagerOperation {
+    
 }

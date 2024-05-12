@@ -1,4 +1,4 @@
 package user.manageroperation;
 
-public class Read implements UserManagerOperation {
+public class Read extends UserManagerOperation {
 }

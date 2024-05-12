@@ -1,4 +1,4 @@
 package user.manageroperation;
 
-public class Delete implements UserManagerOperation {
+public class Delete extends UserManagerOperation {
 }

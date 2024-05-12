@@ -1,7 +1,6 @@
-package regexTest;
+package regex;
 
 import org.junit.jupiter.api.Test;
-import regex.RegexUserChoise;
 
 import static junit.framework.Assert.assertTrue;
 import static junit.framework.TestCase.assertEquals;

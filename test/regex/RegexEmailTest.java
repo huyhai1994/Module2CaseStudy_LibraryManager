@@ -1,7 +1,6 @@
-package regexTest;
+package regex;
 
 import org.junit.jupiter.api.Test;
-import regex.RegexEmail;
 
 import static org.junit.jupiter.api.Assertions.*;
 

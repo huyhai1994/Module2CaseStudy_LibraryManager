@@ -1,4 +1,4 @@
 package user.manageroperation;
 
-public interface UserManagerOperation {
+public abstract class UserManagerOperation {
 }

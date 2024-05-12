@@ -5,16 +5,16 @@ import controller.Controller;
 import java.util.Scanner;
 
 public class Menu {
-    public static int numberOfMenuObject = 0;
+    public static int numberOfObjects = 0;
     private static Menu menu;
 
     private Menu() {
     }
 
     public static synchronized Menu getInstance() {
-        boolean isMenuObjectNotExist = numberOfMenuObject == 0;
+        boolean isMenuObjectNotExist = numberOfObjects == 0;
         if (isMenuObjectNotExist) {
-            numberOfMenuObject++;
+            numberOfObjects++;
             menu = new Menu();
             return menu;
         }

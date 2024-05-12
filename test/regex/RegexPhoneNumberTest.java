@@ -1,7 +1,6 @@
-package regexTest;
+package regex;
 
 import org.junit.jupiter.api.Test;
-import regex.RegexPhoneNumber;
 
 import static org.junit.jupiter.api.Assertions.*;
 

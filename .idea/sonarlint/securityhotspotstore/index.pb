@@ -57,3 +57,19 @@ U
 +test/user/relatedinfos/PhoneNumberTest.java,9/7/975790a85ae343b5112722df2c2b2dbd83afce68
 M
 test/user/type/AdminTest.java,1/5/1539196d4829965d4cd7d1ebd0ffa1830408a3ff
+F
+test/package-info.java,2/5/25c7c114a9cdc8132ce72a7216f48ba252e94d24
+Z
+*test/user/manageroperation/CreateTest.java,d/0/d0423b040849ad3866522c8facb6a45f3afa477f
+N
+test/regex/RegexEmailTest.java,7/6/76d99abc84d73efc3eab0f771722539d45d65020
+T
+$test/regex/RegexPhoneNumberTest.java,9/6/96e148e3587630119dda8d31caafa0e5cd03c952
+S
+#test/regex/RegexUserChoiseTest.java,2/c/2c83b4dcb00ca4d0969e85bd267aa2e1cc2917eb
+K
+test/database/DataBase.java,b/d/bd0296fb2b957d1505c0e0574f8abfb0934b2c33
+J
+src/database/DataBase.java,0/b/0bda44d64d808cc434868a3358f137935626612c
+O
+test/database/DataBaseTest.java,8/b/8b7bcba7d73c6cec3a0df19e99ca344e32174a40

@@ -1,9 +1,9 @@
 
-¡
-java:S1104"^Make numberOfMenuObject a static final constant or non-public and provide accessors if needed.(ù±›µ8¿ÂÒÂö1J$3855ddba-0c4f-4261-94b0-45712c658fe5
-{
-java:S1444"8Make this "public static numberOfMenuObject" field final(ù±›µ8ÀÂÒÂö1J$f27966f6-db18-448b-b669-6f5402347a68
+£
+java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8ÈÛèÓö1J$b48b876c-0634-47a9-8e0a-46b144052b15
+}
+java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8ÊÛèÓö1J$3f260448-0d8a-4b4e-8f95-574f1b3f8103
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8ä³µÂö1J$0ec43f08-aeb8-438f-9ae1-4eeff2f53d96
-m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8ê³µÂö1J$f2ea7e12-1839-450b-9670-d1aa5a52710e
-m	java:S106"+Replace this use of System.out by a logger.(’¾¯¸8ì³µÂö1J$259afc33-da3d-4271-ac7f-5a2b8d6da0f6
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8ä³µÂö1J$329d8460-4cad-434f-a362-2e89487f6cc4
+m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8ê³µÂö1J$24f88bb4-3388-4cf0-8adf-1e81d4d7fb23
+m	java:S106"+Replace this use of System.out by a logger.(’¾¯¸8ì³µÂö1J$e9cdb93c-8135-4232-9d0d-c62ca84dc552
