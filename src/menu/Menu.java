@@ -35,7 +35,7 @@ public class Menu {
 
     public int getUserIdAndPrintGuidelines() {
         Scanner scanner = createNewScanner();
-        System.out.println("Id nguoi dung: ");
+        System.out.println("Id nguoi dung[Nhap dang so nguyen (VD. 1)]: ");
         try {
             return scanner.nextInt();
         } catch (InputMismatchException e) {
