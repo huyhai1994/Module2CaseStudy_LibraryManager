@@ -61,3 +61,13 @@ O
 test/database/DataBaseTest.java,8/b/8b7bcba7d73c6cec3a0df19e99ca344e32174a40
 X
 (test/user/manageroperation/ReadTest.java,8/5/856146442ed7595bc3f3cef43c8874fdf2a74394
+E
+src/login/SignUp.java,9/f/9ffc1f3a17c05941d2c0261e5e27e3a948a86d93
+F
+src/access/SignUp.java,9/2/92012f59beea5f447cd322fafc36c19873c5f97a
+F
+src/access/SignIn.java,8/9/89b2be54630e7e34c7a20153cd4d6e3fc835c5d2
+F
+src/access/Access.java,3/e/3e9f84e29fc1ec25d71f18e6adfff577a139984b
+K
+test/access/SignUpTest.java,c/c/cc6d3a42c6c6105801b7a9118942cfe3761f6d39

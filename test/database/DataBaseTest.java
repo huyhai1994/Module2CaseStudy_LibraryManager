@@ -18,7 +18,7 @@ class DataBaseTest {
 
     @Test
     void getNumberOfObjects() {
-        DataBase dataBase = DataBase.getInstance();
+        DataBase.getInstance();
         int expectedNumberOfObjects = 1;
         int actualNumberOfObjects = DataBase.numberOfObjects;
         assertEquals(expectedNumberOfObjects, actualNumberOfObjects);
@@ -26,8 +26,8 @@ class DataBaseTest {
 
     @Test
     void createTwoInstanceOfDataBase() {
-        DataBase dataBase = DataBase.getInstance();
-        DataBase dataBase1 = DataBase.getInstance();
+        DataBase.getInstance();
+        DataBase.getInstance();
         int expectedNumberOfObjects = 2;
         int actualNumberOfObjects = DataBase.numberOfObjects;
         assertNotEquals(expectedNumberOfObjects, actualNumberOfObjects);
@@ -35,8 +35,6 @@ class DataBaseTest {
 
     @Test
     void isOnlyOneObjectsCreated() {
-        DataBase dataBase = DataBase.getInstance();
-        DataBase dataBase1 = DataBase.getInstance();
         int expectedNumberOfObjects = 1;
         int actualNumberOfObjects = DataBase.numberOfObjects;
         assertEquals(expectedNumberOfObjects, actualNumberOfObjects);

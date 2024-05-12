@@ -65,7 +65,7 @@ public class Menu {
         try {
             Scanner userInput = createNewScanner();
             Controller controller = Controller.createController();
-            controller.navigatingTheLogin(userInput.nextInt());
+            controller.navigatingTheUserAccess(userInput.nextInt());
         } catch (InputMismatchException e) {
             System.out.println("Ban da nhap sai vui long nhap lai...");
             menu.run();

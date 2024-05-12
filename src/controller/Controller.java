@@ -1,5 +1,8 @@
 package controller;
 
+import access.Access;
+import access.SignIn;
+import access.SignUp;
 import database.DataBase;
 import menu.Menu;
 import regex.RegexUserChoise;
@@ -7,11 +10,9 @@ import user.manageroperation.Create;
 import user.manageroperation.UserManagerOperation;
 import user.type.Admin;
 
-import java.util.Scanner;
-
 public class Controller {
-    public static final int ONE = 1;
-    public static final int TWO = 2;
+    public static final int SIGN_IN = 1;
+    public static final int SIGN_UP = 2;
     private RegexUserChoise regexUserChoise = new RegexUserChoise();
     private Menu menu = Menu.getInstance();
     private DataBase dataBase = DataBase.getInstance();
@@ -23,17 +24,13 @@ public class Controller {
         return new Controller();
     }
 
-    public void navigatingTheLogin(int userChoise) {
-        navigateBackToMenuIfRegexCheckFail(userChoise);
-        switch (userChoise) {
-            case ONE:
-                throw new UnsupportedOperationException("Tinh nang login chua cap nhat..");
-            case TWO:
-                newUser();
-                break;
-            default:
-                menu.run();
-        }
+    public void navigatingTheUserAccess(int accessChoise) {
+        navigateBackToMenuIfRegexCheckFail(accessChoise);
+        Access[] access = {new SignIn(), new SignUp()};
+        if (accessChoise == SIGN_IN)
+            access[0].operating();
+        else if (accessChoise == SIGN_UP)
+            access[1].operating();
     }
 
     public boolean checkRegexNotMatch(int userChoise) {
@@ -44,24 +41,7 @@ public class Controller {
         return false;
     }
 
-    private void newUser() {
-        menu = Menu.getInstance();
-        menu.printNewAdminOrNewNormalUser();
-        Scanner scanner = menu.createNewScanner();
-        int userChoiceIndex = scanner.nextInt();
-        navigateBackToMenuIfRegexCheckFail(userChoiceIndex);
-        switch (userChoiceIndex) {
-            case ONE:
-                createAdminAccount();
-                break;
-            case TWO:
-                throw new UnsupportedOperationException("Tinh Nang Tao Tai Khoan Chua Cap Nhat...");
-            default:
-                menu.run();
-        }
-    }
-
-    private void createAdminAccount() {
+    public void createAdminAccount() {
         Admin admin = getAdmin();
         dataBase = DataBase.getInstance();
         dataBase.getUsersManagerOperation();
