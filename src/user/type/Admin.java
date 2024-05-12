@@ -26,11 +26,28 @@ public class Admin extends User {
         this.email.setData(email);
     }
 
+    public String getPhoneNumber() {
+        return this.phoneNumber.getData();
+    }
+
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setPhoneNumber(String number) {
+        this.phoneNumber.setData(number);
+    }
+
+
+    public int getId() {
+        return this.id;
+    }
+
+    public void setId(int newId) {
+        this.id = newId;
     }
 }
