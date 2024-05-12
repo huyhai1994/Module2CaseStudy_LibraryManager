@@ -1,11 +1,9 @@
 
 ¸
-java:S1319*"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ëª“†ıÿÿÿÿ8ÊƒİÖö1J$98f3b529-74e1-4a83-92ef-d0ac5bd2b1d8
+java:S1319)"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ëª“†ıÿÿÿÿ8ÊƒİÖö1J$2e1a8252-2f18-46da-a642-50ee497ef2c7
 £
-java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8ËƒİÖö1J$ff171235-a87c-4325-9428-f713ab576660
+java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8ËƒİÖö1J$4e3ebeda-cd86-4c36-913e-e6383d97b0e1
 }
-java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8ËƒİÖö1J$966fd800-4d6b-4bfd-a2e2-0df4fbb422ac
+java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8ËƒİÖö1J$abfec197-e7af-486d-979c-614446e6a2d7
 á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(êà™¿ùÿÿÿÿ8ÒƒİÖö1J$d5bb9dbd-3e6b-4057-8d73-6b8fa4f0baa4
-y
-java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ØƒİÖö1J$588e043a-bf89-4044-8948-a83f181489f3
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(êà™¿ùÿÿÿÿ8ÒƒİÖö1J$0c28db71-ee27-4d71-b29c-a7e6b9ad1439

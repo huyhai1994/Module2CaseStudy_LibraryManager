@@ -4,7 +4,6 @@ import user.manageroperation.*;
 import user.type.User;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 import controller.Controller;
 
