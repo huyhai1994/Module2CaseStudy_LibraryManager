@@ -57,7 +57,6 @@ public class Menu {
     public void printNewAdminOrNewNormalUser() {
         System.out.println("Ban muon tao tai khoan gi? ...");
         System.out.println("1. Tai khoan Admin \n2. Tai khoan Binh thuong: \n");
-
     }
 
     public void getUserInputAndNavigatingTheLogin() {

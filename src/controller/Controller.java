@@ -27,10 +27,13 @@ public class Controller {
     public void navigatingTheUserAccess(int accessChoise) {
         navigateBackToMenuIfRegexCheckFail(accessChoise);
         Access[] access = {new SignIn(), new SignUp()};
-        if (accessChoise == SIGN_IN)
+        if (isSignIn(accessChoise))
             access[0].operating();
-        else if (accessChoise == SIGN_UP)
-            access[1].operating();
+        access[1].operating();
+    }
+
+    private static boolean isSignIn(int accessChoise) {
+        return accessChoise == SIGN_IN;
     }
 
     public boolean checkRegexNotMatch(int userChoise) {

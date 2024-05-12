@@ -1,18 +1,18 @@
 
 £
-java:S1104	"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8”àåö1J$0cd2dde4-cb02-4e7e-8ccb-966cbd016ecb
+java:S1104	"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8”àåö1J$dc1eb533-e4f1-4d35-be43-f9e33d074c87
 }
-java:S1444	"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8•àåö1J$9d11f350-4e63-4a3a-a292-464465258b2d
+java:S1444	"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8•àåö1J$fb8e829f-8cac-4d9b-9d60-9b210eeeb50f
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8­àåö1J$2387dafa-51c2-4037-add1-258a2e13522e
-m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8´àåö1J$6ec6ee8e-9e0b-4980-9122-999d64bd3855
-r	java:S106 "+Replace this use of System.out by a logger.(‡¹ÊÍøÿÿÿÿ8¶àåö1J$52eee905-f796-4029-bff7-d63792a680ff
-m	java:S106&"+Replace this use of System.out by a logger.(ãÊğÌ8¸àåö1J$4a41ba9b-1c58-4221-8f78-847b93d8bef4
-m	java:S106*"+Replace this use of System.out by a logger.(ŸÁ†‚8»àåö1J$cc1a97b6-e236-4708-a4d7-2d5f703c52bf
-r	java:S1061"+Replace this use of System.out by a logger.(˜‹ü„ıÿÿÿÿ8¼àåö1J$6a709bd0-77dc-405b-889f-9e3a3c3cc417
-r	java:S1065"+Replace this use of System.out by a logger.(¦ûÔôùÿÿÿÿ8¾àåö1J$66a511ea-28f3-4a1d-bad4-f42fb6385d93
-m	java:S106:"+Replace this use of System.out by a logger.(¡ö²‡8¾àåö1J$d59456a5-e00f-4a38-bb54-b9fd1903afd6
-r	java:S106;"+Replace this use of System.out by a logger.(Àí§ÿÿÿÿÿ8ÇÖæåö1J$42fe71c0-832e-4c73-be4e-33ef07064b81
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8­àåö1J$ba09a5a9-23d7-4231-8803-8761db7fd9a9
+m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8´àåö1J$a8b62b05-6258-42a9-b3c6-878ab2e26185
+r	java:S106 "+Replace this use of System.out by a logger.(‡¹ÊÍøÿÿÿÿ8¶àåö1J$e51e96c3-6987-47be-9cf9-b8572271ad4e
+m	java:S106&"+Replace this use of System.out by a logger.(ãÊğÌ8¸àåö1J$a67b428b-3bb8-497b-b9f4-0ac5c8da8359
+m	java:S106*"+Replace this use of System.out by a logger.(ŸÁ†‚8»àåö1J$8c97bc36-de2d-44cd-b949-e2c0f363b46b
+r	java:S1061"+Replace this use of System.out by a logger.(˜‹ü„ıÿÿÿÿ8¼àåö1J$6a0ade2c-1244-47cb-b09e-658ddf8d8223
+r	java:S1065"+Replace this use of System.out by a logger.(¦ûÔôùÿÿÿÿ8¾àåö1J$453db4e0-24d1-421d-8be3-a90c5a28cb57
+m	java:S106:"+Replace this use of System.out by a logger.(¡ö²‡8¾àåö1J$1cffec25-0c67-4f01-90c8-afa8cf6f8096
+r	java:S106;"+Replace this use of System.out by a logger.(Àí§ÿÿÿÿÿ8ÇÖæåö1J$1305e8d8-1192-416b-8175-3194caa13c55
 †
-java:S1117C">Rename "controller" which hides the field declared at line 11.(ù”“€ıÿÿÿÿ8Áàåö1J$889d9b05-28d6-4c1e-ac7d-65a675abef0f
-m	java:S106F"+Replace this use of System.out by a logger.(ŸÁ†‚8ÉÖæåö1J$dae18658-93fa-4ce3-9178-1aa102949183
+java:S1117B">Rename "controller" which hides the field declared at line 11.(ù”“€ıÿÿÿÿ8Áàåö1J$4e8adbce-134b-4e05-aeb9-0baf1480c5fa
+m	java:S106E"+Replace this use of System.out by a logger.(ŸÁ†‚8ÉÖæåö1J$ea890485-0b7f-4336-bcb2-533718b258ef
