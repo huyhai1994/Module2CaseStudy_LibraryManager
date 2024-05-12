@@ -7,12 +7,12 @@ public class RegexUserChoise implements Regex {
 
     @Override
     public void printGuideLine() {
-        System.out.println("Ban can nhap so 0,1 va 2...");
+        System.out.println("Ban can nhap so 1 hoac 2...");
     }
 
     @Override
     public boolean isMatch(String inputString) {
-        String userChoisePattern = "[0-2]";
+        String userChoisePattern = "^(1|2)$";
         return inputString.matches(userChoisePattern);
     }
 

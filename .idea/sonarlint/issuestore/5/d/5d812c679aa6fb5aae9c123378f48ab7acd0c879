@@ -1,6 +1,5 @@
 
-	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8 ğÏİö1J$9b637b4b-80e8-4c1e-a94f-b2110239d320
-£	java:S116"\Rename this field "REGEX_USER_CHOISE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Â‚ùÿÿÿÿ8­ğÏİö1J$ba591283-8003-4106-919a-81e41c1bf845
-Ÿ
-java:S1450"WRemove the "dataBase" field and declare it as a local variable in the relevant methods.(‹Îûÿÿÿÿ8°ğÏİö1J$46873a1b-6469-4583-a230-9da58882e500
-d	java:S131""Add a default case to this switch.(‘ ß8·ğÏİö1J$3e561315-28f0-4109-918c-a034611c7584
+ˆ
+java:S20952"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¢·ñµ8­˜ßàö1J$af2d21ca-79ac-4189-b0e5-83190eabdf46
+m	java:S106H"+Replace this use of System.out by a logger.(á­¬ñ8»˜ßàö1J$9b6ca402-a844-4923-85e9-a056c99f6eb1
+m	java:S106U"+Replace this use of System.out by a logger.(Íçí™8Ÿ–äàö1J$e0f7505f-1543-4551-95b6-7b92a141e4de
