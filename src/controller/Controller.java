@@ -24,7 +24,7 @@ public class Controller {
     }
 
     public void navigatingTheLogin(int userChoise) {
-        checkRegexNotMatch(userChoise);
+        navigateBackToMenuIfRegexCheckFail(userChoise);
         switch (userChoise) {
             case ONE:
                 throw new UnsupportedOperationException("Tinh nang login chua cap nhat..");
@@ -90,5 +90,4 @@ public class Controller {
             menu.run();
         }
     }
-
 }

@@ -2,6 +2,7 @@ package menu;
 
 import controller.Controller;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Menu {
@@ -35,7 +36,13 @@ public class Menu {
     public int getUserIdAndPrintGuidelines() {
         Scanner scanner = createNewScanner();
         System.out.println("Id nguoi dung: ");
-        return scanner.nextInt();
+        try {
+            return scanner.nextInt();
+        } catch (InputMismatchException e) {
+            System.out.println("Ban da nhap sai vui long nhap lai...");
+            menu.run();
+            throw e;
+        }
     }
 
     public void printUserOptions() {
@@ -55,9 +62,15 @@ public class Menu {
 
     public void getUserInputAndNavigatingTheLogin() {
         printUserOptions();
-        Scanner userInput = createNewScanner();
-        Controller controller = Controller.createController();
-        controller.navigatingTheLogin(userInput.nextInt());
+        try {
+            Scanner userInput = createNewScanner();
+            Controller controller = Controller.createController();
+            controller.navigatingTheLogin(userInput.nextInt());
+        } catch (InputMismatchException e) {
+            System.out.println("Ban da nhap sai vui long nhap lai...");
+            menu.run();
+            throw e;
+        }
     }
 
     public void run() {

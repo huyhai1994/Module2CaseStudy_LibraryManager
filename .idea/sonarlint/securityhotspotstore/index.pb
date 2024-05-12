@@ -25,8 +25,6 @@ I
 src/user/type/Normal.java,5/b/5b36bdd93ce2c50e0eba72aa2b70b0c6a6a047a2
 G
 src/user/type/User.java,5/1/5183f065a746a1cae5a90ef8c9003cb5080a399a
-O
-src/user/operator/Operator.java,9/b/9b38ffd8bcbc6211435820787c3d7e48384d1ba7
 U
 %src/user/manageroperation/Delete.java,8/e/8e46898ddb77712d8d7f31ce3be86182b5e1f47b
 U

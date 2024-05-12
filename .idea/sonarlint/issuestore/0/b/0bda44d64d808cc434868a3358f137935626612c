@@ -1,9 +1,9 @@
 
 ¸
-java:S1319)"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ëª“†ıÿÿÿÿ8ÊƒİÖö1J$2e1a8252-2f18-46da-a642-50ee497ef2c7
+java:S1319("pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ëª“†ıÿÿÿÿ8ÊƒİÖö1J$ed663c22-3bcc-4c9e-8f35-a18967a712fe
 £
-java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8ËƒİÖö1J$4e3ebeda-cd86-4c36-913e-e6383d97b0e1
+java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8ËƒİÖö1J$99b942f0-92a7-4025-9720-9f5534b114f7
 }
-java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8ËƒİÖö1J$abfec197-e7af-486d-979c-614446e6a2d7
+java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8ËƒİÖö1J$162e15af-dd6d-4f7e-ae9e-147c04bfbefd
 á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(êà™¿ùÿÿÿÿ8ÒƒİÖö1J$0c28db71-ee27-4d71-b29c-a7e6b9ad1439
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(êà™¿ùÿÿÿÿ8ÒƒİÖö1J$b70fbc4e-4f18-498e-ad41-8781eae9b8a7

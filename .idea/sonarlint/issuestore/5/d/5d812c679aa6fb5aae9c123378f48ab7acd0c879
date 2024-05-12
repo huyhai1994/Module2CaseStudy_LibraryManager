@@ -1,5 +1,5 @@
 
-ˆ
-java:S20952"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¢·ñµ8­˜ßàö1J$af2d21ca-79ac-4189-b0e5-83190eabdf46
-m	java:S106H"+Replace this use of System.out by a logger.(á­¬ñ8»˜ßàö1J$9b6ca402-a844-4923-85e9-a056c99f6eb1
-m	java:S106U"+Replace this use of System.out by a logger.(Íçí™8Ÿ–äàö1J$e0f7505f-1543-4551-95b6-7b92a141e4de
+b
+java:S20952"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¢·ñµ8 Š½âö1
+G	java:S106H"+Replace this use of System.out by a logger.(á­¬ñ8´Š½âö1
+G	java:S106U"+Replace this use of System.out by a logger.(Íçí™8¹Š½âö1

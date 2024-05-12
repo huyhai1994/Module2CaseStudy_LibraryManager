@@ -15,7 +15,6 @@ public class DataBase {
     private Controller controller = Controller.createController();
     private UserManagerOperation[] usersManagerOperations;
 
-
     private DataBase() {
         usersManagerOperations = new UserManagerOperation[]{
                 new Create(),
