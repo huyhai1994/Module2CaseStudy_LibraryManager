@@ -1,6 +1,10 @@
 package database;
 
 import org.junit.jupiter.api.Test;
+import user.manageroperation.*;
+import user.type.User;
+
+import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -38,4 +42,46 @@ class DataBaseTest {
         assertEquals(expectedNumberOfObjects, actualNumberOfObjects);
     }
 
+    @Test
+    void usersManagerOperationsNotNull() {
+        DataBase dataBase = DataBase.getInstance();
+        UserManagerOperation[] usersManager = dataBase.getUsersManagerOperation();
+        assertNotNull(usersManager);
+    }
+
+    @Test
+    void isCreateObjectInUsersManagerOperations() {
+        DataBase dataBase = DataBase.getInstance();
+        UserManagerOperation[] usersManager = dataBase.getUsersManagerOperation();
+        assertTrue(usersManager[0] instanceof Create);
+    }
+
+
+    @Test
+    void isReadObjectInUsersManagerOperations() {
+        DataBase dataBase = DataBase.getInstance();
+        UserManagerOperation[] usersManager = dataBase.getUsersManagerOperation();
+        assertTrue(usersManager[1] instanceof Read);
+    }
+
+    @Test
+    void isUpdateObjectInUsersManagerOperations() {
+        DataBase dataBase = DataBase.getInstance();
+        UserManagerOperation[] usersManager = dataBase.getUsersManagerOperation();
+        assertTrue(usersManager[2] instanceof Update);
+    }
+
+    @Test
+    void isDeleteObjectInUsersManagerOperations() {
+        DataBase dataBase = DataBase.getInstance();
+        UserManagerOperation[] usersManager = dataBase.getUsersManagerOperation();
+        assertTrue(usersManager[3] instanceof Delete);
+    }
+
+    @Test
+    void getUsersNotNull() {
+        DataBase dataBase = DataBase.getInstance();
+        ArrayList<User> users = dataBase.getUsers();
+        assertNotNull(users);
+    }
 }

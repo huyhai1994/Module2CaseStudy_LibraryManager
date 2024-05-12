@@ -11,14 +11,8 @@ O
 src/regex/RegexPhoneNumber.java,9/e/9e6c6cb4a72e94b41a9e97bd722937439743c283
 N
 src/regex/RegexUserChoise.java,5/4/54f5a30ae9d01bde2e265ed42989eaa18464d15b
-W
-'test/regexTest/RegexUserChoiseTest.java,b/0/b0783373934f477d9b166d218d7dc0d52854d7ca
-X
-(test/regexTest/RegexPhoneNumberTest.java,0/6/0600d11486b39ece27ada8feec842ff14710e448
 I
 src/regex/RegexEmail.java,0/b/0b0f4c6a2e7c3efe4020ca98b291d1f50382ac7d
-R
-"test/regexTest/RegexEmailTest.java,9/c/9c2bb271dc463de3b31f8ebaf463463500e1cfe8
 G
 src/ConstantNumber.java,2/2/22673a4f2052e608d51f4f34944b2678bf729b3f
 L
@@ -57,8 +51,6 @@ U
 +test/user/relatedinfos/PhoneNumberTest.java,9/7/975790a85ae343b5112722df2c2b2dbd83afce68
 M
 test/user/type/AdminTest.java,1/5/1539196d4829965d4cd7d1ebd0ffa1830408a3ff
-F
-test/package-info.java,2/5/25c7c114a9cdc8132ce72a7216f48ba252e94d24
 Z
 *test/user/manageroperation/CreateTest.java,d/0/d0423b040849ad3866522c8facb6a45f3afa477f
 N
@@ -67,8 +59,6 @@ T
 $test/regex/RegexPhoneNumberTest.java,9/6/96e148e3587630119dda8d31caafa0e5cd03c952
 S
 #test/regex/RegexUserChoiseTest.java,2/c/2c83b4dcb00ca4d0969e85bd267aa2e1cc2917eb
-K
-test/database/DataBase.java,b/d/bd0296fb2b957d1505c0e0574f8abfb0934b2c33
 J
 src/database/DataBase.java,0/b/0bda44d64d808cc434868a3358f137935626612c
 O

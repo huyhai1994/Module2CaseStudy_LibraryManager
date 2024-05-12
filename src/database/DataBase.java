@@ -4,6 +4,7 @@ import user.manageroperation.*;
 import user.type.User;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 import controller.Controller;
 
@@ -11,7 +12,7 @@ import controller.Controller;
 public class DataBase {
     public static int numberOfObjects = 0;
     private static DataBase dataBase;
-    private ArrayList<User> users = new ArrayList<User>();
+    private ArrayList<User> users = new ArrayList<>();
     private Controller controller = Controller.createController();
     private UserManagerOperation[] usersManagerOperations;
 
@@ -34,4 +35,11 @@ public class DataBase {
         return dataBase;
     }
 
+    public UserManagerOperation[] getUsersManagerOperation() {
+        return this.usersManagerOperations;
+    }
+
+    public ArrayList<User> getUsers() {
+        return this.users;
+    }
 }
