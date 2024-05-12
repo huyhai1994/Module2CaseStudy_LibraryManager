@@ -1,5 +1,6 @@
 package controller;
 
+import database.DataBase;
 import menu.Menu;
 import regex.RegexUserChoise;
 
@@ -8,7 +9,8 @@ public class Controller {
     public static final int ONE = 1;
     public static final int TWO = 2;
     private final RegexUserChoise REGEX_USER_CHOISE = new RegexUserChoise();
-    private final Menu MENU = Menu.getInstance();
+    private Menu menu = Menu.getInstance();
+    private DataBase dataBase = DataBase.getInstance();
 
     private Controller() {
 
@@ -21,7 +23,7 @@ public class Controller {
     public void navigatingTheLogin(int userChoise) {
         if (REGEX_USER_CHOISE.isNotMatch(userChoise + "")) {
             REGEX_USER_CHOISE.printNotMatch();
-            MENU.run();
+            menu.run();
         }
         switch (userChoise) {
             case ONE:
@@ -36,10 +38,15 @@ public class Controller {
     }
 
     private void login() {
-        System.out.println("used login...");
+        menu.run();
+        throw new UnsupportedOperationException("Tinh Nang Dang Nhap Chua Cap Nhat...");
     }
 
     private void newUser() {
-        System.out.println("User created...");
+        dataBase = DataBase.getInstance();
+        dataBase.getUsersManagerOperation();
+        menu = Menu.getInstance();
+        menu.printNewAdminOrNewNormalUser();
     }
+
 }

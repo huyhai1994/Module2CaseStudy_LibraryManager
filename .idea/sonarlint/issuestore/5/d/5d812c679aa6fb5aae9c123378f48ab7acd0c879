@@ -1,8 +1,6 @@
 
-	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8ËÙ Ëö1J$51371c03-f79d-4cc6-b703-8afa11260ec3
-£	java:S116
-"\Rename this field "REGEX_USER_CHOISE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Â‚ùÿÿÿÿ8¸§Ëö1J$a27e6316-1ba3-4409-b9c4-b65ace2416df
-–	java:S116"ORename this field "MENU" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰½ âıÿÿÿÿ8Úİ±Ëö1J$ebfcfe69-2d77-45f8-8053-7e68e877f932
-d	java:S131""Add a default case to this switch.(‘ ß8İÙ Ëö1J$331e6f0d-e66e-4f97-9f58-d0db404c2b59
-m	java:S106'"+Replace this use of System.out by a logger.(£áš´8âÙ Ëö1J$17debece-67a3-4583-875a-3547252cc5d2
-m	java:S106+"+Replace this use of System.out by a logger.(Ş®üè8äÙ Ëö1J$9742f8a2-bfbb-4331-a54a-06fe14124c85
+	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(ÙÃèñúÿÿÿÿ8 ğÏİö1J$9b637b4b-80e8-4c1e-a94f-b2110239d320
+£	java:S116"\Rename this field "REGEX_USER_CHOISE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Â‚ùÿÿÿÿ8­ğÏİö1J$ba591283-8003-4106-919a-81e41c1bf845
+Ÿ
+java:S1450"WRemove the "dataBase" field and declare it as a local variable in the relevant methods.(‹Îûÿÿÿÿ8°ğÏİö1J$46873a1b-6469-4583-a230-9da58882e500
+d	java:S131""Add a default case to this switch.(‘ ß8·ğÏİö1J$3e561315-28f0-4109-918c-a034611c7584

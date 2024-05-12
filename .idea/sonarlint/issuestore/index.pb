@@ -4,8 +4,6 @@ G
 B
 src/menu/Menu.java,b/5/b57a6028d340a2df5ff1d52f953a0ad38eba9b8c
 D
-src/login/Login.java,f/b/fb0c51a8e175307c9571a4228687626d272054ca
-D
 src/regex/Regex.java,1/6/16e975102256a6ec5358027909de9a4304a08b33
 O
 src/regex/RegexPhoneNumber.java,9/e/9e6c6cb4a72e94b41a9e97bd722937439743c283

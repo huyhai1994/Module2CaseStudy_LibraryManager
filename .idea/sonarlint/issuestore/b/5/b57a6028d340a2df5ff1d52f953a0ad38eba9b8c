@@ -1,9 +1,11 @@
 
 £
-java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8ÈÛèÓö1J$b48b876c-0634-47a9-8e0a-46b144052b15
+java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8Ş¦¸İö1J$55cd6cce-3b4f-4087-afc4-4f8954b009bc
 }
-java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8ÊÛèÓö1J$3f260448-0d8a-4b4e-8f95-574f1b3f8103
+java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8á¦¸İö1J$04e06ced-2177-4f2f-bb93-9931be9fd333
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8ä³µÂö1J$329d8460-4cad-434f-a362-2e89487f6cc4
-m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8ê³µÂö1J$24f88bb4-3388-4cf0-8adf-1e81d4d7fb23
-m	java:S106"+Replace this use of System.out by a logger.(’¾¯¸8ì³µÂö1J$e9cdb93c-8135-4232-9d0d-c62ca84dc552
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8‡§¸İö1J$951e46a0-735a-4299-ba51-c3e42b03d82d
+m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8–§¸İö1J$b4d419a6-39fc-4d11-8684-f4165f767b77
+m	java:S106"+Replace this use of System.out by a logger.(’¾¯¸8™§¸İö1J$eb3df998-6875-4798-a78b-5d7126fbf7ec
+m	java:S106!"+Replace this use of System.out by a logger.(¡ö²‡8œ§¸İö1J$268c5032-26ae-49b8-9178-b6832213a171
+r	java:S106""+Replace this use of System.out by a logger.(Àí§ÿÿÿÿÿ8û¹İö1J$d3c68573-e979-4e64-97fd-56fadac60c82

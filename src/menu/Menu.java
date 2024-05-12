@@ -29,6 +29,12 @@ public class Menu {
         System.out.println("1. Dang Nhap\n2. Tao tai khoan moi\n0. Thoat chuong trinh\n");
     }
 
+    public void printNewAdminOrNewNormalUser() {
+        System.out.println("Ban muon tao tai khoan gi? ...");
+        System.out.println("1. Tai khoan Admin \n2. Tai khoan Binh thuong: \n");
+        
+    }
+
     public void getUserInputAndNavigatingTheLogin() {
         printUserOptions();
         Scanner userInput = createNewScanner();
@@ -40,6 +46,7 @@ public class Menu {
         printWelcome();
         getUserInputAndNavigatingTheLogin();
     }
+
 
     public Scanner createNewScanner() {
         return new Scanner(System.in);
