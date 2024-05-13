@@ -1,9 +1,9 @@
 
 ˆ
-java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¢·ñµ8‚ÃÃ÷ö1J$f593fc74-d351-4d6a-bf1b-12db029420d5
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¢·ñµ8ƒ‰áüö1J$6abf281d-dcc6-41da-906d-d7b212414af9
 Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”œØ8Ú¸öö1J$d0c5feaf-db2b-4f44-95cb-df9fdc916b21
-›
-java:S1450	"SRemove the "menu" field and declare it as a local variable in the relevant methods.(ş™¸«şÿÿÿÿ8ÒŸÅ÷ö1J$b009773d-3496-4bb2-b509-83fc428c93fa
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”œØ8…‰áüö1J$8b97918f-b726-4b7f-bd15-44d56e6c1898
+u
+java:S1450	"SRemove the "menu" field and declare it as a local variable in the relevant methods.(ş™¸«şÿÿÿÿ8ƒìâüö1
 ~
-java:S2696"6Make the enclosing method "static" or remove this set.(îÎÌìúÿÿÿÿ8Ş¸öö1J$354d0df0-e0ef-47f6-8a2b-8786046112b3
+java:S2696"6Make the enclosing method "static" or remove this set.(îÎÌìúÿÿÿÿ8–‰áüö1J$4abe368d-181a-4ef5-9a71-b48b8e1980e9

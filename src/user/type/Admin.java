@@ -27,6 +27,7 @@ public class Admin extends User {
         return this.email.getData();
     }
 
+    @Override
     public void setEmail(String email) {
         this.email.setData(email);
     }
