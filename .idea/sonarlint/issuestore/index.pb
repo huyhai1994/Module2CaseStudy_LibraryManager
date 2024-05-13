@@ -61,8 +61,6 @@ O
 test/database/DataBaseTest.java,8/b/8b7bcba7d73c6cec3a0df19e99ca344e32174a40
 X
 (test/user/manageroperation/ReadTest.java,8/5/856146442ed7595bc3f3cef43c8874fdf2a74394
-E
-src/login/SignUp.java,9/f/9ffc1f3a17c05941d2c0261e5e27e3a948a86d93
 F
 src/access/SignUp.java,9/2/92012f59beea5f447cd322fafc36c19873c5f97a
 F
