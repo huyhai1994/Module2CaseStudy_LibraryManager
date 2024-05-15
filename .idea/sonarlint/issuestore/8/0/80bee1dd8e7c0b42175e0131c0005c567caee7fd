@@ -1,0 +1,11 @@
+
+k	java:S106
+"+Replace this use of System.out by a logger.(ƒ§¢‹øÿÿÿÿJ$7b85e074-1e28-4e2b-9ef5-993b1b48bfe6
+x
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•èJ$4384645b-699a-49a6-8ac8-b0a71dde9773
+x
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•èJ$c2c8cdca-075d-41e5-984a-ff5a09835ed1
+x
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ñë•èJ$4433f242-84b1-4935-83aa-3412ebabd50d
+f	java:S106"+Replace this use of System.out by a logger.(˜¡üÖJ$ec22410f-445b-4ccb-a40b-1ce17078675a
+f	java:S106"+Replace this use of System.out by a logger.(ïƒêØJ$59e8c364-b09c-47d4-8e23-e0f96276bd30

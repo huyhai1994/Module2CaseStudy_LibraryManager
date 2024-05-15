@@ -7,8 +7,9 @@ package regex;
 public class RegexUserName implements Regex {
     @Override
     public void printGuideLine() {
-        System.out.println("> Ban can nhap so tu 6 den 20 ki tu");
+        System.out.println("> Ban can nhap chu cai tu 6 den 20 ki tu");
         System.out.println("> Co the nhap chu cai in thuong hoac in hoa");
+        System.out.println("> Co the nhap so ");
         System.out.println("> Khong duoc nhap ki tu dac biet");
     }
 
@@ -25,12 +26,12 @@ public class RegexUserName implements Regex {
 
     @Override
     public void printMatch() {
-        System.out.println("Ban da nhap dung...");
+        System.out.println("Ban da nhap dung ten...");
     }
 
     @Override
     public void printNotMatch() {
-        System.out.println("Ban da nhap sai, vui long nhap lai...");
+        System.out.println("Ban da nhap sai ten, vui long nhap lai...");
         printGuideLine();
     }
 }

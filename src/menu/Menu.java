@@ -1,19 +1,20 @@
 package menu;
 
-import controller.Controller;
+import controller.RegexController;
 
+import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Menu {
     public static int numberOfObjects = 0;
     private static Menu menu;
-    private Controller controller = Controller.createController();
+    private RegexController regexController = RegexController.createController();
 
-    private Menu() {
+    private Menu() throws IOException {
     }
 
-    public static synchronized Menu getInstance() {
+    public static synchronized Menu getInstance() throws IOException {
         boolean isMenuObjectNotExist = numberOfObjects == 0;
         if (isMenuObjectNotExist) {
             numberOfObjects++;
@@ -27,10 +28,28 @@ public class Menu {
         System.out.println("\n--------Chao mung toi thu vien so---------\n");
     }
 
-    public String getUserNameAndPrintGuidelines() {
+    public String getUserNameAndPrintGuidelines() throws IOException {
         Scanner scanner = createNewScanner();
         System.out.println("Ten dang nhap: ");
-        return scanner.nextLine();
+        String userName = scanner.nextLine();
+        regexController.navigateBackToMenuIfUserNameRegexCheckFail(userName);
+        return userName;
+    }
+
+    public String getEmailAndPrintGuidelines() throws IOException {
+        Scanner scanner = createNewScanner();
+        System.out.println("Email Nguoi Dung: ");
+        String userEmail = scanner.nextLine();
+        regexController.navigateBackToMenuIfUserEmailRegexCheckFail(userEmail);
+        return userEmail;
+    }
+
+    public String getPhoneNumberAndPrintGuidelines() throws IOException {
+        Scanner scanner = createNewScanner();
+        System.out.println("So Dien Thoai: ");
+        String userPhoneNumber = scanner.nextLine();
+        regexController.navigateBackToMenuIfRegexPhoneNumberCheckFail(userPhoneNumber);
+        return userPhoneNumber;
     }
 
     public int getUserIdAndPrintGuidelines() {
@@ -49,9 +68,14 @@ public class Menu {
         System.out.println("1. Dang Nhap\n2. Tao tai khoan moi\n");
     }
 
-    public void printUserInfo() {
+    public void printAdminsInformations() {
+        printAccountSuccesfullyCreated();
         System.out.println("Danh sach tai khoan: ");
-        controller.printUserInfo();
+        regexController.printAdminInformations();
+    }
+
+    public void printAccountSuccesfullyCreated() {
+        System.out.println("Tai khoan da duoc tao thanh cong!");
     }
 
     public void printNewAdminOrNewNormalUser() {
@@ -63,12 +87,14 @@ public class Menu {
         printUserOptions();
         try {
             Scanner userInput = createNewScanner();
-            Controller controller = Controller.createController();
-            controller.navigatingTheUserAccess(userInput.nextInt());
+            RegexController regexController = RegexController.createController();
+            regexController.navigatingTheUserAccess(userInput.nextInt());
         } catch (InputMismatchException e) {
             System.out.println("Ban da nhap sai vui long nhap lai...");
             menu.run();
             throw e;
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 
@@ -80,4 +106,5 @@ public class Menu {
     public Scanner createNewScanner() {
         return new Scanner(System.in);
     }
+
 }

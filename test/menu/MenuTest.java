@@ -2,6 +2,7 @@ package menu;
 
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 import static org.junit.Assert.assertTrue;
@@ -19,14 +20,14 @@ class MenuTest {
     }
 
     @Test
-    void createNewScanner() {
+    void createNewScanner() throws IOException {
         menu = Menu.getInstance();
         Scanner result = menu.createNewScanner();
         assertNotNull(result);
     }
 
     @Test
-    void createAnMenuInstance() {
+    void createAnMenuInstance() throws IOException {
         int expected = 1;
         Menu.getInstance();
         int result = Menu.numberOfObjects;
@@ -34,7 +35,7 @@ class MenuTest {
     }
 
     @Test
-    void createTwoInstanceOfMenu() {
+    void createTwoInstanceOfMenu() throws IOException {
         int expected = 1;
         Menu.getInstance();
         Menu.getInstance();
@@ -42,7 +43,7 @@ class MenuTest {
         assertEquals(expected, result);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         while (true) {
             menu = Menu.getInstance();
             menu.run();

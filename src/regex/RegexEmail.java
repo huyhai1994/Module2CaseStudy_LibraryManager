@@ -26,7 +26,7 @@ public class RegexEmail implements Regex {
 
     @Override
     public void printNotMatch() {
-        System.out.println("Ban da nhap sai, vui long thu lai...");
+        System.out.println("Ban da nhap sai Email, vui long thu lai...");
         printGuideLine();
     }
 }

@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import user.manageroperation.*;
 import user.type.User;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -11,13 +12,13 @@ import static org.junit.jupiter.api.Assertions.*;
 class DataBaseTest {
 
     @Test
-    void getInstanceNotNull() {
+    void getInstanceNotNull() throws IOException {
         DataBase dataBase = DataBase.getInstance();
         assertNotNull(dataBase);
     }
 
     @Test
-    void getNumberOfObjects() {
+    void getNumberOfObjects() throws IOException {
         DataBase.getInstance();
         int expectedNumberOfObjects = 1;
         int actualNumberOfObjects = DataBase.numberOfObjects;
@@ -25,7 +26,7 @@ class DataBaseTest {
     }
 
     @Test
-    void createTwoInstanceOfDataBase() {
+    void createTwoInstanceOfDataBase() throws IOException {
         DataBase.getInstance();
         DataBase.getInstance();
         int expectedNumberOfObjects = 2;
@@ -41,14 +42,14 @@ class DataBaseTest {
     }
 
     @Test
-    void usersManagerOperationsNotNull() {
+    void usersManagerOperationsNotNull() throws IOException {
         DataBase dataBase = DataBase.getInstance();
         UserManagerOperation[] usersManager = dataBase.getUsersManagerOperation();
         assertNotNull(usersManager);
     }
 
     @Test
-    void isCreateObjectInUsersManagerOperations() {
+    void isCreateObjectInUsersManagerOperations() throws IOException {
         DataBase dataBase = DataBase.getInstance();
         UserManagerOperation[] usersManager = dataBase.getUsersManagerOperation();
         assertTrue(usersManager[0] instanceof Create);
@@ -56,28 +57,28 @@ class DataBaseTest {
 
 
     @Test
-    void isReadObjectInUsersManagerOperations() {
+    void isReadObjectInUsersManagerOperations() throws IOException {
         DataBase dataBase = DataBase.getInstance();
         UserManagerOperation[] usersManager = dataBase.getUsersManagerOperation();
         assertTrue(usersManager[1] instanceof Read);
     }
 
     @Test
-    void isUpdateObjectInUsersManagerOperations() {
+    void isUpdateObjectInUsersManagerOperations() throws IOException {
         DataBase dataBase = DataBase.getInstance();
         UserManagerOperation[] usersManager = dataBase.getUsersManagerOperation();
         assertTrue(usersManager[2] instanceof Update);
     }
 
     @Test
-    void isDeleteObjectInUsersManagerOperations() {
+    void isDeleteObjectInUsersManagerOperations() throws IOException {
         DataBase dataBase = DataBase.getInstance();
         UserManagerOperation[] usersManager = dataBase.getUsersManagerOperation();
         assertTrue(usersManager[3] instanceof Delete);
     }
 
     @Test
-    void getUsersNotNull() {
+    void getUsersNotNull() throws IOException {
         DataBase dataBase = DataBase.getInstance();
         ArrayList<User> users = dataBase.getUsers();
         assertNotNull(users);

@@ -1,7 +1,7 @@
 package regex;
 
-public class RegexPhoneNumber implements Regex {
-    public RegexPhoneNumber() {
+public class RegexUserPhoneNumber implements Regex {
+    public RegexUserPhoneNumber() {
         super();
     }
 
@@ -28,7 +28,7 @@ public class RegexPhoneNumber implements Regex {
 
     @Override
     public void printNotMatch() {
-        System.out.println("Ban da nhap sai, vui long thu lai...");
+        System.out.println("Ban da nhap sai so dien thoai, vui long thu lai...");
         printGuideLine();
     }
 

@@ -1,21 +1,24 @@
 package database;
 
 import user.manageroperation.*;
+import user.type.Admin;
 import user.type.User;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
-import controller.Controller;
+import controller.RegexController;
 
 
 public class DataBase {
     public static int numberOfObjects = 0;
     private static DataBase dataBase;
     private ArrayList<User> users = new ArrayList<>();
-    private Controller controller = Controller.createController();
+    private ArrayList<Admin> admins = new ArrayList<>();
+    private RegexController regexController = RegexController.createController();
     private UserManagerOperation[] usersManagerOperations;
 
-    private DataBase() {
+    private DataBase() throws IOException {
         usersManagerOperations = new UserManagerOperation[]{
                 new Create(),
                 new Read(),
@@ -23,7 +26,7 @@ public class DataBase {
                 new Delete()};
     }
 
-    public static synchronized DataBase getInstance() {
+    public static synchronized DataBase getInstance() throws IOException {
         boolean isDataBaseObjectNotExist = numberOfObjects == 0;
         if (isDataBaseObjectNotExist) {
             numberOfObjects++;
@@ -35,6 +38,10 @@ public class DataBase {
 
     public UserManagerOperation[] getUsersManagerOperation() {
         return this.usersManagerOperations;
+    }
+
+    public ArrayList<Admin> getAdmins() {
+        return this.admins;
     }
 
     public ArrayList<User> getUsers() {

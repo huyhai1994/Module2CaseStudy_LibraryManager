@@ -1,9 +1,13 @@
 
+³
+java:S1319+"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÿ…Èõ8ÚÌŞ÷1J$7c1ac6f7-e321-4ed3-a61c-58205396ba75
 ¸
-java:S1319("pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ëª“†ıÿÿÿÿ8ÊƒİÖö1J$4f885d11-7e7e-46ab-af30-e6f390a84176
+java:S1319/"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ëª“†ıÿÿÿÿ8ÚÌŞ÷1J$91cd9f51-557e-4142-b14b-808aec639799
 £
-java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8ËƒİÖö1J$693d6404-f560-4678-b1cb-873c8b9d2b86
+java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8ÜÌŞ÷1J$18fbf4b9-ccc1-401f-b600-7337e88c8789
 }
-java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8ËƒİÖö1J$d14174f5-57c6-4200-b3f6-76794302fffb
+java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8İÌŞ÷1J$d0725fd4-2c33-43a9-bf14-d84192176cf0
 á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(êà™¿ùÿÿÿÿ8ÒƒİÖö1J$16b6c4cc-3cd2-410e-a4b1-15cf51eb2ebe
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(êà™¿ùÿÿÿÿ8çÌŞ÷1J$d51a5e4b-1b35-4223-8f2e-70eb3debd7cc
+U
+java:S1068"3Remove this unused "regexController" private field.(ƒ»…áûÿÿÿÿ8ıòÂß÷1

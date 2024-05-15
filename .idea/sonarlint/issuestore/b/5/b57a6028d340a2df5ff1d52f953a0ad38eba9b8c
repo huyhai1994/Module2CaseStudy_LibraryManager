@@ -1,18 +1,26 @@
 
+	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‰»è÷1J$169d24d5-adbf-4011-a576-f429da33536b
 £
-java:S1104	"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8»Çá÷ö1J$0f49f10e-0982-467a-90ac-15ffcc349895
+java:S1104
+"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8‹»è÷1J$91deb114-0de8-4c6b-afa3-f95fbdf2c077
 }
-java:S1444	"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8¼Çá÷ö1J$fb6c44c4-a597-408e-b35a-2d0b28d1e78f
+java:S1444
+"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8Œ»è÷1J$702fd3aa-2361-4a8c-a7f8-c761a8960c89
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8ÓÇá÷ö1J$8f5e55fc-dfb3-4334-9360-384a286a7bd5
-m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8ÚÇá÷ö1J$8b33c6fa-9e28-47ae-b45e-b34d5f954142
-r	java:S106 "+Replace this use of System.out by a logger.(‡¹ÊÍøÿÿÿÿ8ÜÇá÷ö1J$16923fcf-7b1d-4832-9648-c89515607502
-m	java:S106&"+Replace this use of System.out by a logger.(ãÊğÌ8ŞÇá÷ö1J$9b1a53f0-1b8c-4b3f-8132-efe4810ad458
-m	java:S106*"+Replace this use of System.out by a logger.(ŸÁ†‚8àÇá÷ö1J$18ec4901-ce0e-4391-9457-3cc0ac1d9583
-r	java:S1061"+Replace this use of System.out by a logger.(˜‹ü„ıÿÿÿÿ8áÇá÷ö1J$28afe091-37a6-492b-8872-94d6ad18f7e1
-r	java:S1065"+Replace this use of System.out by a logger.(¦ûÔôùÿÿÿÿ8âÇá÷ö1J$776cc5f1-fea6-4cf2-bda7-52e68c994a72
-m	java:S106:"+Replace this use of System.out by a logger.(¡ö²‡8äÇá÷ö1J$59116036-f62d-4781-aa39-a1539b1f4802
-r	java:S106;"+Replace this use of System.out by a logger.(Àí§ÿÿÿÿÿ8äÇá÷ö1J$72658b98-2711-4fda-a72a-aca3617e63e2
-†
-java:S1117B">Rename "controller" which hides the field declared at line 11.(ù”“€ıÿÿÿÿ8çÇá÷ö1J$c112761f-c6bf-436f-988e-7d61b63ce25b
-m	java:S106E"+Replace this use of System.out by a logger.(ŸÁ†‚8éÇá÷ö1J$47b1d048-57f7-4140-930d-7489f60fc21d
+java:S6548	"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8›»è÷1J$ea4eb956-a1fd-4049-988d-013d6dc38239
+³
+java:S1130"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(ÅËË8Ÿ»è÷1J$e28ffd6a-9764-46fd-94a3-9f530e3616d9
+m	java:S106"+Replace this use of System.out by a logger.(—ê¼ú8¡»è÷1J$5327da73-191a-4954-a50f-f2bdd92c8237
+r	java:S106!"+Replace this use of System.out by a logger.(‡¹ÊÍøÿÿÿÿ8¢»è÷1J$0a757fb5-f46d-403d-b0ea-b3e9b6e75e34
+r	java:S106)"+Replace this use of System.out by a logger.(›²ı¢ÿÿÿÿÿ8£»è÷1J$34e175e5-911f-42e7-9200-65aa4a6a789d
+r	java:S1061"+Replace this use of System.out by a logger.(çĞ—¡ÿÿÿÿÿ8¥»è÷1J$48e4c031-b373-442b-9b83-6c61a5bb00c8
+m	java:S1069"+Replace this use of System.out by a logger.(ãÊğÌ8¦»è÷1J$ca3b3c6b-8b32-4c81-8de0-7d558ead63f9
+m	java:S106="+Replace this use of System.out by a logger.(ŸÁ†‚8§»è÷1J$a7e6b5a7-c860-44b1-b038-df7242d9fad2
+r	java:S106D"+Replace this use of System.out by a logger.(˜‹ü„ıÿÿÿÿ8¨»è÷1J$3f7af580-9fc4-4b9f-8f1c-515afc029b20
+r	java:S106I"+Replace this use of System.out by a logger.(¦ûÔôùÿÿÿÿ8¨»è÷1J$5eaac29b-2d1d-4420-98bd-7899de6344b8
+m	java:S106N"+Replace this use of System.out by a logger.(•¯ì“8©»è÷1J$be0408b9-28c0-41b3-83e0-fedf7ede05c8
+m	java:S106R"+Replace this use of System.out by a logger.(¡ö²‡8©»è÷1J$72774d34-1866-4be6-955f-d5ecba2174f1
+r	java:S106S"+Replace this use of System.out by a logger.(Àí§ÿÿÿÿÿ8ª»è÷1J$b381bf92-e284-4d4b-a09f-9fc068acc941
+‹
+java:S1117Z"CRename "regexController" which hides the field declared at line 12.(âÿàıÿÿÿÿ8¬»è÷1J$904d50d2-b9d0-4686-9b16-ac75fdcf7cbe
+m	java:S106]"+Replace this use of System.out by a logger.(ŸÁ†‚8­»è÷1J$adbdc337-31de-46db-8c07-ce3d86e91905

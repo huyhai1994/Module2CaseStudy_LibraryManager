@@ -1,10 +1,10 @@
 package user.relatedinfos;
 
-import regex.RegexPhoneNumber;
+import regex.RegexUserPhoneNumber;
 
 public class PhoneNumber implements UserRelatedInfos {
     private String data;
-    public static final RegexPhoneNumber REGEX_PHONE_NUMBER = new RegexPhoneNumber();
+    public static final RegexUserPhoneNumber REGEX_PHONE_NUMBER = new RegexUserPhoneNumber();
 
     public PhoneNumber() {
     }

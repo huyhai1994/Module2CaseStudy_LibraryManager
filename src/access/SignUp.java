@@ -1,8 +1,9 @@
 package access;
 
-import controller.Controller;
+import controller.RegexController;
 import menu.Menu;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class SignUp extends Access {
@@ -13,16 +14,16 @@ public class SignUp extends Access {
     public SignUp() {
     }
 
-    public void operating() {
+    public void operating() throws IOException {
         menu = Menu.getInstance();
         menu.printNewAdminOrNewNormalUser();
         Scanner scanner = menu.createNewScanner();
         int userChoiceIndex = scanner.nextInt();
-        Controller controller = Controller.createController();
-        controller.navigateBackToMenuIfRegexCheckFail(userChoiceIndex);
+        RegexController regexController = RegexController.createController();
+        regexController.navigateBackToMenuIfRegexCheckFail(userChoiceIndex);
         switch (userChoiceIndex) {
             case ONE:
-                controller.createAdminAccount();
+                regexController.createAdminAccount();
                 break;
             case TWO:
                 throw new UnsupportedOperationException("Tinh Nang Tao Tai Khoan Chua Cap Nhat...");

@@ -5,8 +5,6 @@ B
 src/menu/Menu.java,b/5/b57a6028d340a2df5ff1d52f953a0ad38eba9b8c
 D
 src/regex/Regex.java,1/6/16e975102256a6ec5358027909de9a4304a08b33
-O
-src/regex/RegexPhoneNumber.java,9/e/9e6c6cb4a72e94b41a9e97bd722937439743c283
 N
 src/regex/RegexUserChoise.java,5/4/54f5a30ae9d01bde2e265ed42989eaa18464d15b
 I
@@ -35,10 +33,6 @@ U
 %src/user/manageroperation/Update.java,c/d/cdd7b948412358ef076aae22e01711db624cea43
 c
 3src/user/manageroperation/UserManagerOperation.java,7/f/7f6741d59976cf2841df172c80c485d0d4288992
-N
-src/controller/Controller.java,5/d/5d812c679aa6fb5aae9c123378f48ab7acd0c879
-S
-#test/controller/ControllerTest.java,b/2/b2d2bb5c457b0b7d6e12596517436b9930822605
 P
  src/user/relatedinfos/Email.java,5/8/58401aba58e08d7163aaa50126e34d3178c0870c
 U
@@ -51,8 +45,6 @@ Z
 *test/user/manageroperation/CreateTest.java,d/0/d0423b040849ad3866522c8facb6a45f3afa477f
 N
 test/regex/RegexEmailTest.java,7/6/76d99abc84d73efc3eab0f771722539d45d65020
-T
-$test/regex/RegexPhoneNumberTest.java,9/6/96e148e3587630119dda8d31caafa0e5cd03c952
 S
 #test/regex/RegexUserChoiseTest.java,2/c/2c83b4dcb00ca4d0969e85bd267aa2e1cc2917eb
 J
@@ -85,8 +77,6 @@ P
  src/iooperations/DeleteFile.java,7/f/7f527d331ecc9dde88bd768f3dfbb8faa595b492
 ^
 .test/iooperations/CreateAndDeleteFileTest.java,9/f/9f2735002f71c663b61234c9c524df89cd49612b
-T
-$test/iooperations/WriteFileTest.java,d/e/de22f91518830a1aa7b7bcdd5418519534a6e367
 W
 'test/iooperations/ReadUserFileTest.java,b/4/b41bdc49fe9693a219b1cb01011cbbf2b31e7515
 R
@@ -95,3 +85,11 @@ S
 #src/iooperations/WriteUserFile.java,4/6/46c5e7eee8de4019ab45e82c584b27c4c55f3d41
 X
 (test/iooperations/WriteUserFileTest.java,2/0/20a23fca35fe5a76c23a815adc020f972df9834d
+B
+src/main/Main.java,f/e/fe03b4fd3afe162c6e01309b98a22588e093d274
+X
+(test/controller/RegexControllerTest.java,d/f/df48a006993b8d88c807728bab3e657733600325
+S
+#src/controller/RegexController.java,b/2/b22a90780f22c0b89bc0f585ed2383e8bfe7fd5b
+S
+#src/regex/RegexUserPhoneNumber.java,8/0/80bee1dd8e7c0b42175e0131c0005c567caee7fd
