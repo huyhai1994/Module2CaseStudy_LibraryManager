@@ -1,8 +1,8 @@
 package user.relatedinfos;
 
 public interface UserRelatedInfos {
-    public void setData(String data);
+    void setData(String data);
 
-    public String getData();
+    String getData();
 
 }

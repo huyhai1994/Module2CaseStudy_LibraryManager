@@ -22,6 +22,4 @@ public class PhoneNumber implements UserRelatedInfos {
     public String getData() {
         return this.data;
     }
-
-
 }

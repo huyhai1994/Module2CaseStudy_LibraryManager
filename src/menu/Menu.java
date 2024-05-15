@@ -25,12 +25,12 @@ public class Menu {
     }
 
     public void printWelcome() {
-        System.out.println("\n--------Chao mung toi thu vien so---------\n");
+        System.out.println("\n--------CChào Mừng Tới Thư Viện Số---------\n");
     }
 
     public String getUserNameAndPrintGuidelines() throws IOException {
         Scanner scanner = createNewScanner();
-        System.out.println("Ten dang nhap: ");
+        System.out.println("Tên Đăng Nhập: ");
         String userName = scanner.nextLine();
         regexController.navigateBackToMenuIfUserNameRegexCheckFail(userName);
         return userName;
@@ -38,7 +38,7 @@ public class Menu {
 
     public String getEmailAndPrintGuidelines() throws IOException {
         Scanner scanner = createNewScanner();
-        System.out.println("Email Nguoi Dung: ");
+        System.out.println("Email Người Dùng: ");
         String userEmail = scanner.nextLine();
         regexController.navigateBackToMenuIfUserEmailRegexCheckFail(userEmail);
         return userEmail;
@@ -46,7 +46,7 @@ public class Menu {
 
     public String getPhoneNumberAndPrintGuidelines() throws IOException {
         Scanner scanner = createNewScanner();
-        System.out.println("So Dien Thoai: ");
+        System.out.println("Số điện thoại ");
         String userPhoneNumber = scanner.nextLine();
         regexController.navigateBackToMenuIfRegexPhoneNumberCheckFail(userPhoneNumber);
         return userPhoneNumber;
@@ -54,33 +54,40 @@ public class Menu {
 
     public int getUserIdAndPrintGuidelines() {
         Scanner scanner = createNewScanner();
-        System.out.println("Id nguoi dung[Nhap dang so nguyen (VD. 1)]: ");
+        System.out.println("Id người dùng[Dạng số  nguyên(VD. 1)]: ");
         try {
             return scanner.nextInt();
         } catch (InputMismatchException e) {
-            System.out.println("Ban da nhap sai vui long nhap lai...");
+            printWrongInput();
             menu.run();
             throw e;
         }
     }
 
+    private static void printWrongInput() {
+        System.out.println("Bạn đã nhập sai, vui lòng nhập lại...");
+    }
+
     public void printUserOptions() {
-        System.out.println("1. Dang Nhap\n2. Tao tai khoan moi\n");
+        System.out.println("1. Đăng " +
+                "Nhập\n2. Tạo Tài Khoản " +
+                "Mới\n");
     }
 
     public void printAdminsInformations() {
         printAccountSuccesfullyCreated();
-        System.out.println("Danh sach tai khoan: ");
+        System.out.println("Danh Sách Tài " +
+                "Khoản: ");
         regexController.printAdminInformations();
     }
 
     public void printAccountSuccesfullyCreated() {
-        System.out.println("Tai khoan da duoc tao thanh cong!");
+        System.out.println("Tài Khoản đã được tạo thành công !");
     }
 
     public void printNewAdminOrNewNormalUser() {
-        System.out.println("Ban muon tao tai khoan gi? ...");
-        System.out.println("1. Tai khoan Admin \n2. Tai khoan Binh thuong: \n");
+        System.out.println("Bạn muốn tạo tài khoản gì ? ...");
+        System.out.println("1. Admin \n2. Bình Thường: \n");
     }
 
     public void getUserInputAndNavigatingTheUserAccess() {
@@ -90,7 +97,7 @@ public class Menu {
             RegexController regexController = RegexController.createController();
             regexController.navigatingTheUserAccess(userInput.nextInt());
         } catch (InputMismatchException e) {
-            System.out.println("Ban da nhap sai vui long nhap lai...");
+            printWrongInput();
             menu.run();
             throw e;
         } catch (IOException e) {
