@@ -5,5 +5,4 @@ public interface UserRelatedInfos {
 
     public String getData();
 
-    public boolean isMatchRegex();
 }

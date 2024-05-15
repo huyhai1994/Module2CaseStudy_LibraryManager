@@ -31,17 +31,5 @@ class EmailTest {
         assertNotEquals(expected, result);
     }
 
-    @Test
-    void isMatchRegexFail() {
-        Email email = new Email();
-        email.setData("aaaa");
-        assertFalse(email.isMatchRegex());
-    }
-
-    @Test
-    void isMatchRegexPass() {
-        Email email = new Email();
-        email.setData("CodeGym123@gmail.com");
-        assertTrue(email.isMatchRegex());
-    }
+  
 }

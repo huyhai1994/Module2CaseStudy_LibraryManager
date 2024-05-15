@@ -78,7 +78,9 @@ public class RegexController {
     public void navigateBackToMenuIfUserNameRegexCheckFail(String inputUserName) throws IOException {
         if (checkRegexUserNameNotMatch(inputUserName)) {
             menu = Menu.getInstance();
-            menu.run();
+            //menu.run();
+            //createAdminAccount();
+            getAnAdminInformationsFromMenu();
         }
     }
 

@@ -25,7 +25,6 @@ public class Email implements UserRelatedInfos {
         return this.data;
     }
 
-    @Override
     public boolean isMatchRegex() {
         if (REGEX_EMAIL.isMatch(this.data))
             return true;

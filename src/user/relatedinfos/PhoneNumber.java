@@ -23,11 +23,5 @@ public class PhoneNumber implements UserRelatedInfos {
         return this.data;
     }
 
-    @Override
-    public boolean isMatchRegex() {
-        if (REGEX_PHONE_NUMBER.isMatch(this.data)) {
-            return true;
-        }
-        return false;
-    }
+
 }

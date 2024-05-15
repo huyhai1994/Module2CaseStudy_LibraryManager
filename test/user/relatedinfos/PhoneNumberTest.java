@@ -30,18 +30,5 @@ class PhoneNumberTest {
         assertEquals(expected, result);
     }
 
-    @Test
-    void isMatchRegexFail() {
-        PhoneNumber phoneNumber = new PhoneNumber();
-        phoneNumber.setData("011-2222-1245");
-        assertFalse(phoneNumber.isMatchRegex());
-    }
-
-    @Test
-    void isMatchRegexPass() {
-        PhoneNumber phoneNumber = new PhoneNumber();
-        phoneNumber.setData("01-2222-1235");
-        assertTrue(phoneNumber.isMatchRegex());
-    }
 
 }
