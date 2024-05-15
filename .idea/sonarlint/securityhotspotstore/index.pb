@@ -69,3 +69,29 @@ F
 src/access/Access.java,3/e/3e9f84e29fc1ec25d71f18e6adfff577a139984b
 K
 test/access/SignUpTest.java,c/c/cc6d3a42c6c6105801b7a9118942cfe3761f6d39
+L
+src/regex/RegexUserName.java,d/2/d2f3c1710e2597043eec3b4e592fb8502b0325eb
+Q
+!test/regex/RegexUserNameTest.java,4/f/4f9d5f99f280bd42ce52b3cdedf3f15586ed846c
+R
+"src/iooperations/IOOperations.java,c/5/c52095ad38084b5adaf0576be2b13a060ca02f2d
+P
+ src/iooperations/CreateFile.java,4/8/4899b689c3546c52e1a6c0eb3eb8ca2d4d618732
+N
+src/iooperations/ReadFile.java,2/e/2efb1331f3c8667776e030d49211a33ed4fddc65
+O
+src/iooperations/WriteFile.java,f/2/f2413aaed0503fcef6ce70cdd29910ea6d8a1767
+P
+ src/iooperations/DeleteFile.java,7/f/7f527d331ecc9dde88bd768f3dfbb8faa595b492
+^
+.test/iooperations/CreateAndDeleteFileTest.java,9/f/9f2735002f71c663b61234c9c524df89cd49612b
+T
+$test/iooperations/WriteFileTest.java,d/e/de22f91518830a1aa7b7bcdd5418519534a6e367
+W
+'test/iooperations/ReadUserFileTest.java,b/4/b41bdc49fe9693a219b1cb01011cbbf2b31e7515
+R
+"src/iooperations/ReadUserFile.java,7/6/76d6bf3e91c7e669df9525805de06da860ac64cb
+S
+#src/iooperations/WriteUserFile.java,4/6/46c5e7eee8de4019ab45e82c584b27c4c55f3d41
+X
+(test/iooperations/WriteUserFileTest.java,2/0/20a23fca35fe5a76c23a815adc020f972df9834d

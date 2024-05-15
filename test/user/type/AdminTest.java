@@ -39,7 +39,7 @@ class AdminTest {
 
     @Test
     void getNamePass() {
-        admin = new Admin("Hai", 0);
+        admin = new Admin(0, "Hai");
         String expected = "Hai";
         String result = admin.getName();
         assertEquals(expected, result);
@@ -105,4 +105,16 @@ class AdminTest {
         int result = Admin.numberOfUsers;
         assertEquals(expected, result);
     }
+
+    @Test
+    void toStringTest() {
+        admin = new Admin(1, "CodeGym");
+        admin.setPhoneNumber("03-0226-0046");
+        admin.setEmail("codeGym123@gmail.com");
+        String expected = "1,CodeGym,codeGym123@gmail.com,03-0226-0046,Admin";
+        String result = admin.toString();
+        assertEquals(expected, result);
+    }
+
+
 }

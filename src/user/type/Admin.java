@@ -15,7 +15,7 @@ public class Admin extends User {
         numberOfUsers++;
     }
 
-    public Admin(String name, int id) {
+    public Admin(int id, String name) {
         this.role = "Admin";
         this.name = name;
         this.id = id;
@@ -64,6 +64,11 @@ public class Admin extends User {
 
     @Override
     public String toString() {
-        return this.role + " " + this.name + " " + this.id;
+        return this.getId()
+                + "," + this.getName()
+                + "," + this.getEmail()
+                + "," + this.getPhoneNumber()
+                + "," + this.role;
     }
+
 }

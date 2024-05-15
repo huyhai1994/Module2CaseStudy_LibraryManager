@@ -77,4 +77,12 @@ class RegexUserChoiseTest {
         assertFalse(regexUserChoise.isNotMatch("1"));
         assertFalse(regexUserChoise.isNotMatch("2"));
     }
+
+    @Test
+    void printTest() {
+        RegexUserChoise regexUserChoise = new RegexUserChoise();
+        regexUserChoise.printGuideLine();
+        regexUserChoise.printMatch();
+        regexUserChoise.printNotMatch();
+    }
 }

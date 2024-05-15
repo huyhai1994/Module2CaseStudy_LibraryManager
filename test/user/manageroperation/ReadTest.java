@@ -30,9 +30,9 @@ class ReadTest {
 
     public static void main(String[] args) {
         DataBase dataBase = DataBase.getInstance();
-        User admin = new Admin("CodeGymHN", 1);
-        User admin2 = new Admin("CodeGymDN", 2);
-        User admin3 = new Admin("CodeGymHCM", 3);
+        User admin = new Admin(1, "CodeGymHN");
+        User admin2 = new Admin(2, "CodeGymDN");
+        User admin3 = new Admin(3, "CodeGymHCM");
         UserManagerOperation[] manager = dataBase.getUsersManagerOperation();
         Create create = (Create) manager[0];
         create.addUser(admin);

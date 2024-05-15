@@ -18,7 +18,7 @@ public class RegexPhoneNumber implements Regex {
 
     @Override
     public boolean isNotMatch(String inputString) {
-        return false;
+        return !isMatch(inputString);
     }
 
     @Override

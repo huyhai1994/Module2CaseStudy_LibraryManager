@@ -1,17 +1,19 @@
 
-_
-java:S5786"Remove this 'public' modifier.(ÇÖ¶×ıÿÿÿÿJ$e5b8ec3c-9bdd-47af-9797-adaed6ebcdf8
-Z
-java:S5786"Remove this 'public' modifier.(ùµ’„J$c80940f5-f881-4b9a-a620-6bdda3b13115
-Z
-java:S5786"Remove this 'public' modifier.(ÆÕó‹J$b7a07fad-9487-4f6f-a208-c056e2e0dc09
-_
-java:S5786#"Remove this 'public' modifier.(šë¶ÍşÿÿÿÿJ$b53a0bb0-a94a-4a87-925c-c64288fcfb4a
-_
-java:S5786+"Remove this 'public' modifier.(«¨ÍüøÿÿÿÿJ$369729cd-9541-4263-9185-7e5c2cfe8015
-Z
-java:S57863"Remove this 'public' modifier.(²èÿÀJ$0302aec9-f4f4-4f28-9645-0b5d73ce3ad2
-_
-java:S5786;"Remove this 'public' modifier.(ÂÆÀôşÿÿÿÿJ$33e6c07c-5052-4a1f-98db-907b5c22c105
-w
-java:S5976"6Replace these 7 tests with a single Parameterized one.(ÇÖ¶×ıÿÿÿÿJ$a0460407-2480-4868-abac-465b80e1fdf1
+O
+java:S2699R"-Add at least one assertion to this test case.(Ù¨ëÿÿÿÿÿ8‰ı¯Ò÷1
+@
+java:S5786"Remove this 'public' modifier.(ÇÖ¶×ıÿÿÿÿ8Šı¯Ò÷1
+;
+java:S5786"Remove this 'public' modifier.(ùµ’„8Šı¯Ò÷1
+;
+java:S5786"Remove this 'public' modifier.(ÆÕó‹8‹ı¯Ò÷1
+@
+java:S5786#"Remove this 'public' modifier.(šë¶Íşÿÿÿÿ8‹ı¯Ò÷1
+@
+java:S5786+"Remove this 'public' modifier.(«¨Íüøÿÿÿÿ8‹ı¯Ò÷1
+;
+java:S57863"Remove this 'public' modifier.(²èÿÀ8‹ı¯Ò÷1
+@
+java:S5786;"Remove this 'public' modifier.(ÂÆÀôşÿÿÿÿ8‹ı¯Ò÷1
+X
+java:S5976"6Replace these 7 tests with a single Parameterized one.(ÇÖ¶×ıÿÿÿÿ8Œı¯Ò÷1

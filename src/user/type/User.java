@@ -18,4 +18,5 @@ public abstract class User {
     public abstract int getId();
 
     public abstract void setId(int newId);
+
 }

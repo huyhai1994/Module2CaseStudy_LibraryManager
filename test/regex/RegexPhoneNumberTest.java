@@ -1,5 +1,6 @@
 package regex;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -7,22 +8,23 @@ import static org.junit.jupiter.api.Assertions.*;
 class RegexPhoneNumberTest {
 
     @Test
+    @DisplayName("Truong hop nhap dung")
     void testRegexPhoneNumber0392260046() {
         RegexPhoneNumber regexPhoneNumber = new RegexPhoneNumber();
         assertTrue(regexPhoneNumber.isMatch("03-9226-0046"));
+        assertTrue(regexPhoneNumber.isMatch("02-1111-1234"));
     }
 
     @Test
-    void testRegexPhoneNumber0211111232() {
-        RegexPhoneNumber regexPhoneNumber = new RegexPhoneNumber();
-        assertTrue(regexPhoneNumber.isMatch("02-1111-1232"));
-    }
-
-    @Test
-    public void testRegexPhoneNumber011231123123() {
+    @DisplayName("Truong hop nhap sai")
+    void testRegexPhoneNumber011231123123() {
         RegexPhoneNumber regexPhoneNumber = new RegexPhoneNumber();
         assertFalse(regexPhoneNumber.isMatch("01 - 1231 - 123123"));
+        assertFalse(regexPhoneNumber.isMatch("0a-1222-cddd"));
+        assertTrue(regexPhoneNumber.isNotMatch("0a-1222-cddd"));
+        assertFalse(regexPhoneNumber.isMatch("-1231-123123"));
     }
+
 
     @Test
     void testRegexPhoneNumber0a1222cddd() {
@@ -94,5 +96,13 @@ class RegexPhoneNumberTest {
     void testRegexPhoneNumber1231123123() {
         RegexPhoneNumber regexPhoneNumber = new RegexPhoneNumber();
         assertFalse(regexPhoneNumber.isMatch("-1231-123123"));
+    }
+
+    @Test
+    void printTest() {
+        RegexPhoneNumber regexPhoneNumber = new RegexPhoneNumber();
+        regexPhoneNumber.printGuideLine();
+        regexPhoneNumber.printMatch();
+        regexPhoneNumber.printNotMatch();
     }
 }

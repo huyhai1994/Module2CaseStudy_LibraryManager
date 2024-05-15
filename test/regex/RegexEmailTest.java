@@ -14,7 +14,7 @@ class RegexEmailTest {
     @Test
     void testRegexEmailTest6to32codeGy() {
         RegexEmail regexEmail = new RegexEmail();
-        assertFalse(regexEmail.isMatch("codeGy"));
+        assertTrue(regexEmail.isNotMatch("codeGy"));
     }
 
     @Test
@@ -141,5 +141,19 @@ class RegexEmailTest {
     void testRegexEmailSpecialCaseAtSignBeautyVn() {
         RegexEmail regexEmail = new RegexEmail();
         assertTrue(regexEmail.isMatch("HaLinh@Beauty.vn"));
+    }
+
+    @Test
+    void testRegexEmailSpecialCaseAtSignBeautyVn1() {
+        RegexEmail regexEmail = new RegexEmail();
+        assertTrue(regexEmail.isMatch("Spa.HN123@Beauty.vn"));
+    }
+
+    @Test
+    void printTest() {
+        RegexEmail regexEmail = new RegexEmail();
+        regexEmail.printGuideLine();
+        regexEmail.printMatch();
+        regexEmail.printNotMatch();
     }
 }
