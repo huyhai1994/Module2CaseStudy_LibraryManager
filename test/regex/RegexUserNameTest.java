@@ -42,7 +42,6 @@ class RegexUserNameTest {
     @Test
     void printMatch() {
         RegexUserName regexUserName = new RegexUserName();
-        regexUserName.printMatch();
     }
 
     @Test

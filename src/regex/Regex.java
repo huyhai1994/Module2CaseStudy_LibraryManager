@@ -7,8 +7,6 @@ public interface Regex {
 
     boolean isNotMatch(String inputString);
 
-    void printMatch();
-
     void printNotMatch();
 
 }

@@ -1,25 +1,26 @@
 
-	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8»ŠØó÷1J$e619da47-73bc-4d75-af6d-24d62a6964c0
+	java:S112x"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8˜ÄÕô÷1J$ffabd420-e4a1-417a-a234-04cf38e8ce34
 £
-java:S1104
-"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8¼ŠØó÷1J$2b9fc06d-2b70-411c-baec-624acbeaa5d0
+java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8šÄÕô÷1J$23004d4a-70b3-4745-9c35-137a639491f7
 }
-java:S1444
-"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8½ŠØó÷1J$d0f50481-441a-456a-b366-509de00de5e3
+java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8›ÄÕô÷1J$6b399a5f-2a3b-4214-bbbd-506b9f67e646
 Ü
-java:S6548	"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8ÍŠØó÷1J$e69c3b0c-77bc-425e-ab94-455506d4e7fd
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ìì¢Ï8°ÄÕô÷1J$46435c32-709c-4827-9715-3cc37a830d14
 ³
-java:S1130"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(ÅËË8ĞŠØó÷1J$7484322b-39e1-449e-beb8-34263e3b5ad1
-m	java:S106"+Replace this use of System.out by a logger.(Ğà¯Ë8ÒŠØó÷1J$fce5a47a-1465-4ac3-853e-f635576d53fb
-m	java:S106!"+Replace this use of System.out by a logger.(áÔ€Ç8ÔŠØó÷1J$cced6195-add5-4cf3-a7f4-a840dce7baeb
-r	java:S106)"+Replace this use of System.out by a logger.(«şöğûÿÿÿÿ8ÕŠØó÷1J$4b3d1082-57c5-4988-b753-722f1ad41b86
-m	java:S1061"+Replace this use of System.out by a logger.(Šşæ›8ÖŠØó÷1J$15f4d4c9-b476-41b7-be9a-ac470215c7c2
-m	java:S1069"+Replace this use of System.out by a logger.(Ì²‰Â8×ŠØó÷1J$195cfc2d-4fe6-4a55-9c35-0f77733d2cd4
-m	java:S106D"+Replace this use of System.out by a logger.(õöÖ8ØŠØó÷1J$26e41b35-a21e-4f84-bb3d-9428727924da
-r	java:S106H"+Replace this use of System.out by a logger.(Íôğªüÿÿÿÿ8ÙŠØó÷1J$36c922c9-321a-4c18-aac7-02251d418e03
-r	java:S106O"+Replace this use of System.out by a logger.(©ŒÛşıÿÿÿÿ8ÙŠØó÷1J$6f5c1700-9686-4445-bfd4-ce41fdb22484
-r	java:S106U"+Replace this use of System.out by a logger.(ûº©Æüÿÿÿÿ8ÚŠØó÷1J$26ab505c-2bb5-4812-bf0b-1cc202c8996a
-r	java:S106Y"+Replace this use of System.out by a logger.(…ãêıÿÿÿÿ8ÛŠØó÷1J$8cfddd5f-6587-4d65-af33-e67afa58cfa2
-m	java:S106Z"+Replace this use of System.out by a logger.(Éïˆ8ÛŠØó÷1J$02ba8556-cef5-438c-89ba-540e318afc15
+java:S1130"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(ÅËË8µÄÕô÷1J$ca5afe90-5636-43ff-8390-aa01e8c9de1d
+r	java:S106$"+Replace this use of System.out by a logger.(ÙÈæéùÿÿÿÿ8·ÄÕô÷1J$b0347c3d-9101-42cf-b658-6333e31fa619
+m	java:S106)"+Replace this use of System.out by a logger.(áÔ€Ç8¹ÄÕô÷1J$36cefe48-cfdd-41a6-b9c0-bb81f12d191c
+r	java:S1062"+Replace this use of System.out by a logger.(«şöğûÿÿÿÿ8ºÄÕô÷1J$0b891858-038d-43a5-98ff-3a11bfd46c7c
+m	java:S106;"+Replace this use of System.out by a logger.(Šşæ›8¼ÄÕô÷1J$f1f4bdb3-dc6f-450a-b4a9-8b974a894daa
+m	java:S106D"+Replace this use of System.out by a logger.(Ì²‰Â8½ÄÕô÷1J$78be0d2d-38bc-4d2a-a6e3-869be4896536
+m	java:S106O"+Replace this use of System.out by a logger.(õöÖ8¿ÄÕô÷1J$921f6fe4-eb6d-4f97-b665-822e5af887b1
+r	java:S106S"+Replace this use of System.out by a logger.(Íôğªüÿÿÿÿ8¿ÄÕô÷1J$6afd4042-4d82-47fc-8b31-9fa8577c7ec3
+r	java:S106Z"+Replace this use of System.out by a logger.(©ŒÛşıÿÿÿÿ8ÀÄÕô÷1J$209034b0-2394-475b-a889-e76a673d4621
+r	java:S106a"+Replace this use of System.out by a logger.(òîèÿşÿÿÿÿ8ÁÄÕô÷1J$776ba4e8-54fd-44b8-8eca-ff6d8baf7b99
+r	java:S106e"+Replace this use of System.out by a logger.(ûº©Æüÿÿÿÿ8ÂÄÕô÷1J$ad92b5bf-927f-492e-afe5-e7bc17da472f
+r	java:S106i"+Replace this use of System.out by a logger.(…ãêıÿÿÿÿ8ÂÄÕô÷1J$d207e745-d924-46b2-aee2-8359514cfec1
+m	java:S106j"+Replace this use of System.out by a logger.(Éïˆ8ÂÄÕô÷1J$b921ffe3-bc08-415d-be1e-d6f46fa94d3f
 ‹
-java:S1117a"CRename "regexController" which hides the field declared at line 12.(âÿàıÿÿÿÿ8İŠØó÷1J$8f6c9a30-2eb4-4ab2-8d02-3eee4c04865f
+java:S1117q"CRename "regexController" which hides the field declared at line 16.(âÿàıÿÿÿÿ8ÄÄÕô÷1J$6c2ab1b1-a8c6-4dca-a015-988585dcd81f
+{
+java:S1068"3Remove this unused "regexUserChoise" private field.(€ûıÛÿÿÿÿÿ8ËÄÕô÷1J$e09b2bd3-bb6b-4e60-a60a-ead1cab49062

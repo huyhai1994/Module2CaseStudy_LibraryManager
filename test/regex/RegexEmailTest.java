@@ -153,7 +153,6 @@ class RegexEmailTest {
     void printTest() {
         RegexEmail regexEmail = new RegexEmail();
         regexEmail.printGuideLine();
-        regexEmail.printMatch();
         regexEmail.printNotMatch();
     }
 }

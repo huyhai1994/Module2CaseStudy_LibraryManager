@@ -7,7 +7,7 @@ public class RegexUserPhoneNumber implements Regex {
 
     @Override
     public void printGuideLine() {
-        System.out.println("Hay nhap so dien thoai theo dang xx-xxxx-xxxx...");
+        System.out.println("Hãy nhập số điện thoại theo dạng xx-xxxx-xxxx (Trong đó x là số nguyên)");
     }
 
     @Override
@@ -22,13 +22,8 @@ public class RegexUserPhoneNumber implements Regex {
     }
 
     @Override
-    public void printMatch() {
-        System.out.println("Ban da nhap dung...");
-    }
-
-    @Override
     public void printNotMatch() {
-        System.out.println("Ban da nhap sai so dien thoai, vui long thu lai...");
+        System.out.println("Bạn đã nhập sai định dạng, vui lòng đăng kí lại...");
         printGuideLine();
     }
 

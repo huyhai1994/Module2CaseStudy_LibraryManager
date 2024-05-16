@@ -3,9 +3,10 @@ package regex;
 public class RegexEmail implements Regex {
     @Override
     public void printGuideLine() {
-        System.out.println("> Email nhap can phai nhap co theo dang 6->32 ki tu");
-        System.out.println("> Co the co ki tu dac biet [@,.,~ hay !] \n Noi tiep la @");
-        System.out.println("> Ket thuc bang ten domain Vd: gmail.com hay edu.vn");
+        System.out.println("> Email nhập cần phải có số kí tự từ 6 -> 32.");
+        System.out.println("> Có thể có kĩ tự đặc biệt như [@,.,~ ] Nối tiếp là @");
+        System.out.println("> Kết thúc bằng tên " +
+                "domain Vd: gmail.com hay edu.vn");
     }
 
     @Override
@@ -20,13 +21,8 @@ public class RegexEmail implements Regex {
     }
 
     @Override
-    public void printMatch() {
-        System.out.println("ban da nhap dung...");
-    }
-
-    @Override
     public void printNotMatch() {
-        System.out.println("Ban da nhap sai Email, vui long thu lai...");
+        System.out.println("Bạn đã nhập sai định dạng Email, Vui lòng đăng kí lại...");
         printGuideLine();
     }
 }

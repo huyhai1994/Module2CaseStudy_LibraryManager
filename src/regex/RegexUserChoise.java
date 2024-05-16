@@ -7,7 +7,7 @@ public class RegexUserChoise implements Regex {
 
     @Override
     public void printGuideLine() {
-        System.out.println("Ban can nhap so 1 hoac 2...");
+        System.out.println("Bạn cần nhập số 1 hoặc 2...");
     }
 
     @Override
@@ -17,13 +17,8 @@ public class RegexUserChoise implements Regex {
     }
 
     @Override
-    public void printMatch() {
-        System.out.println("Ban da nhap dung...");
-    }
-
-    @Override
     public void printNotMatch() {
-        System.out.println("Ban da nhap sai, vui long nhap lai...");
+        System.out.println("Bạn đã nhập sai, vui lòng nhập lại...");
         printGuideLine();
     }
 

@@ -1,6 +1,10 @@
 package menu;
 
 import controller.RegexController;
+import regex.RegexEmail;
+import regex.RegexUserChoise;
+import regex.RegexUserName;
+import regex.RegexUserPhoneNumber;
 
 import java.io.IOException;
 import java.util.InputMismatchException;
@@ -10,6 +14,10 @@ public class Menu {
     public static int numberOfObjects = 0;
     private static Menu menu;
     private RegexController regexController = RegexController.createController();
+    private RegexEmail regexUserEmail = new RegexEmail();
+    private RegexUserChoise regexUserChoise = new RegexUserChoise();
+    private RegexUserName regexUserName = new RegexUserName();
+    private RegexUserPhoneNumber regexUserPhoneNumber = new RegexUserPhoneNumber();
 
     private Menu() throws IOException {
     }
@@ -25,12 +33,13 @@ public class Menu {
     }
 
     public void printWelcome() {
-        System.out.println("\n--------CChào Mừng Tới Thư Viện Số---------\n");
+        System.out.println("\n--------Chào Mừng Tới Thư Viện Số---------\n");
     }
 
     public String getUserNameAndPrintGuidelines() throws IOException {
         Scanner scanner = createNewScanner();
         System.out.println("Tên Đăng Nhập: ");
+        regexUserName.printGuideLine();
         String userName = scanner.nextLine();
         regexController.navigateBackToMenuIfUserNameRegexCheckFail(userName);
         return userName;
@@ -39,6 +48,7 @@ public class Menu {
     public String getEmailAndPrintGuidelines() throws IOException {
         Scanner scanner = createNewScanner();
         System.out.println("Email Người Dùng: ");
+        regexUserEmail.printGuideLine();
         String userEmail = scanner.nextLine();
         regexController.navigateBackToMenuIfUserEmailRegexCheckFail(userEmail);
         return userEmail;
@@ -47,6 +57,7 @@ public class Menu {
     public String getPhoneNumberAndPrintGuidelines() throws IOException {
         Scanner scanner = createNewScanner();
         System.out.println("Số điện thoại ");
+        regexUserPhoneNumber.printGuideLine();
         String userPhoneNumber = scanner.nextLine();
         regexController.navigateBackToMenuIfRegexPhoneNumberCheckFail(userPhoneNumber);
         return userPhoneNumber;
@@ -78,7 +89,12 @@ public class Menu {
         printAccountSuccesfullyCreated();
         System.out.println("Danh Sách Tài " +
                 "Khoản: ");
+        printUsersListFormat()u;
         regexController.printAdminInformations();
+    }
+
+    public void printUsersListFormat() {
+        System.out.println("id, tên đăng kí , email người dùng , số điện thoại , vai trò");
     }
 
     public void printAccountSuccesfullyCreated() {

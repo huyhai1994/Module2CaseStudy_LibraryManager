@@ -82,7 +82,6 @@ class RegexUserChoiseTest {
     void printTest() {
         RegexUserChoise regexUserChoise = new RegexUserChoise();
         regexUserChoise.printGuideLine();
-        regexUserChoise.printMatch();
         regexUserChoise.printNotMatch();
     }
 }

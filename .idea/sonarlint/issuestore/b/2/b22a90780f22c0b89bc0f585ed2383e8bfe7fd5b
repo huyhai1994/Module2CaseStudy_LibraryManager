@@ -1,5 +1,4 @@
 
 ¹
-java:S1130"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(Î•®¸ûÿÿÿÿ8ð­¦ç÷1J$05a172fd-394a-4fc2-b323-0418e26932a3
-ƒ	java:S125Q"<This block of commented-out lines of code should be removed.(¤Ç±¢ÿÿÿÿÿ8§Ò×ò÷1J$5d7fbe76-6bd4-4572-b788-353a8c20c583
-r	java:S106y"+Replace this use of System.out by a logger.(‚Îç…ùÿÿÿÿ8®¦ç÷1J$4f033180-0948-4614-9239-0b6a741d75a8
+java:S1130"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(Î•®¸ûÿÿÿÿ8ð­¦ç÷1J$69930165-cadb-4cbf-90e5-c74c5207bb7a
+r	java:S106w"+Replace this use of System.out by a logger.(‚Îç…ùÿÿÿÿ8®¦ç÷1J$f53ebbce-83e0-42de-bf2e-ff96f7c1b4f4

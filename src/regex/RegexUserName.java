@@ -7,10 +7,10 @@ package regex;
 public class RegexUserName implements Regex {
     @Override
     public void printGuideLine() {
-        System.out.println("> Ban can nhap chu cai tu 6 den 20 ki tu");
-        System.out.println("> Co the nhap chu cai in thuong hoac in hoa");
-        System.out.println("> Co the nhap so ");
-        System.out.println("> Khong duoc nhap ki tu dac biet");
+        System.out.println("> Bạn cần nhập tổng số chữ từ 6 đến 20 kí tự ");
+        System.out.println("> Có thể có chữ cái in thường, hoặc in hoa");
+        System.out.println("> Có thể chứa số nguyên từ 0->9 ");
+        System.out.println("> Không được nhập kí tự đặc biệt.");
     }
 
     @Override
@@ -25,13 +25,9 @@ public class RegexUserName implements Regex {
     }
 
     @Override
-    public void printMatch() {
-        System.out.println("Ban da nhap dung ten...");
-    }
-
-    @Override
     public void printNotMatch() {
-        System.out.println("Ban da nhap sai ten, vui long nhap lai...");
+        System.out.println("Bạn đã nhập sai định dạng " +
+                "tên vui lòng nhập lại...");
         printGuideLine();
     }
 }

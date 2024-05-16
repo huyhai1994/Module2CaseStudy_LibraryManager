@@ -102,7 +102,6 @@ class RegexUserPhoneNumberTest {
     void printTest() {
         RegexUserPhoneNumber regexUserPhoneNumber = new RegexUserPhoneNumber();
         regexUserPhoneNumber.printGuideLine();
-        regexUserPhoneNumber.printMatch();
         regexUserPhoneNumber.printNotMatch();
     }
 }
