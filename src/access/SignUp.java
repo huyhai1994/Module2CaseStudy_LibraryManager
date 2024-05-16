@@ -14,7 +14,8 @@ public class SignUp extends Access {
     private AccountType[] accountTypes;
 
     public SignUp() throws IOException {
-        accountTypes = new AccountType[]{new AdminAccount(), new NormalAccount()};
+        accountTypes = new AccountType[]{new AdminAccount(),
+                new NormalAccount()};
     }
 
     public void operating() throws IOException {

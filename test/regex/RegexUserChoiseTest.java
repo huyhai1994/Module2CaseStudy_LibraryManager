@@ -8,7 +8,7 @@ import static junit.framework.TestCase.assertFalse;
 
 class RegexUserChoiseTest {
     @Test
-    public void isMatchTestNumber1() {
+    void isMatchTestNumber1() {
         boolean expected = true;
         RegexUserChoise regexUserChoiseTest = new RegexUserChoise();
         boolean result = regexUserChoiseTest.isMatch("1");
@@ -16,7 +16,7 @@ class RegexUserChoiseTest {
     }
 
     @Test
-    public void isMatchTestNumber2() {
+    void isMatchTestNumber2() {
         boolean expected = true;
         RegexUserChoise regexUserChoiseTest = new RegexUserChoise();
         boolean result = regexUserChoiseTest.isMatch("2");
@@ -24,7 +24,7 @@ class RegexUserChoiseTest {
     }
 
     @Test
-    public void isMatchTestNumber10() {
+    void isMatchTestNumber10() {
         boolean expected = false;
         RegexUserChoise regexUserChoiseTest = new RegexUserChoise();
         boolean result = regexUserChoiseTest.isMatch("10");
@@ -32,7 +32,7 @@ class RegexUserChoiseTest {
     }
 
     @Test
-    public void isMatchTestNumberMinus1() {
+    void isMatchTestNumberMinus1() {
         boolean expected = false;
         RegexUserChoise regexUserChoiseTest = new RegexUserChoise();
         boolean result = regexUserChoiseTest.isMatch("-1");
@@ -40,7 +40,7 @@ class RegexUserChoiseTest {
     }
 
     @Test
-    public void isMatchTestNumber5() {
+    void isMatchTestNumber5() {
         boolean expected = false;
         RegexUserChoise regexUserChoiseTest = new RegexUserChoise();
         boolean result = regexUserChoiseTest.isMatch("5");
@@ -48,7 +48,7 @@ class RegexUserChoiseTest {
     }
 
     @Test
-    public void isMatchTestRandomChar() {
+    void isMatchTestRandomChar() {
         boolean expected = false;
         RegexUserChoise regexUserChoiseTest = new RegexUserChoise();
         boolean result = regexUserChoiseTest.isMatch("a");
@@ -56,7 +56,7 @@ class RegexUserChoiseTest {
     }
 
     @Test
-    public void isMatchTestRandomString() {
+    void isMatchTestRandomString() {
         boolean expected = false;
         RegexUserChoise regexUserChoiseTest = new RegexUserChoise();
         boolean result = regexUserChoiseTest.isMatch("asdawdawdw");
