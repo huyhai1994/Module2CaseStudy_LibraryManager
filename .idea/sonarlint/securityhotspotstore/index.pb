@@ -107,3 +107,7 @@ M
 src/account/AdminAccount.java,2/a/2a80cf552403f68049e42824580fe43dd158e7ed
 N
 src/account/NormalAccount.java,e/6/e61911ee6cc89f13025e93551034d1096b5a4b72
+R
+"test/account/AdminAccountTest.java,2/c/2c803bc6b1f6e19bece1c4c3533253db9988b546
+S
+#test/account/NormalAccountTest.java,a/a/aa118704bf0c9f624d378a1daac6c39af39da3cf

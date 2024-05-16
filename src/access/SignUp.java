@@ -1,5 +1,8 @@
 package access;
 
+import account.AccountType;
+import account.AdminAccount;
+import account.NormalAccount;
 import controller.RegexController;
 import menu.Menu;
 
@@ -8,10 +11,10 @@ import java.util.Scanner;
 
 public class SignUp extends Access {
     private static Menu menu;
-    private static final int ONE = 1;
-    private static final int TWO = 2;
+    private AccountType[] accountTypes;
 
-    public SignUp() {
+    public SignUp() throws IOException {
+        accountTypes = new AccountType[]{new AdminAccount(), new NormalAccount()};
     }
 
     public void operating() throws IOException {
@@ -21,18 +24,10 @@ public class SignUp extends Access {
         int userChoiceIndex = scanner.nextInt();
         RegexController regexController = RegexController.createController();
         regexController.navigateBackToMenuIfRegexCheckFail(userChoiceIndex);
-        createAccountDependOnUserChoise(userChoiceIndex, regexController);
+        createAccountDependOnUserChoice(userChoiceIndex);
     }
 
-    private static void createAccountDependOnUserChoise(int userChoiceIndex, RegexController regexController) throws IOException {
-        switch (userChoiceIndex) {
-            case ONE:
-                regexController.createAdminAccount();
-                break;
-            case TWO:
-                throw new UnsupportedOperationException("Tinh Nang Tao Tai Khoan Chua Cap Nhat...");
-            default:
-                menu.run();
-        }
+    public void createAccountDependOnUserChoice(int userChoiceIndex) throws IOException {
+        accountTypes[userChoiceIndex - 1].getUserChoiseAndCreateUserAccount();
     }
 }

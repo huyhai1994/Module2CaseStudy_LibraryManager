@@ -44,6 +44,13 @@ public class RegexController {
         createAndWriteAdminDataToFile(usersManagerOperation, admin);
     }
 
+    public void createNormalAccount() throws IOException {
+        menu = Menu.getInstance();
+        menu.printTheOperationNotAvailable();
+        menu.printNaviatingBackToMenu();
+        menu.run();
+    }
+
     private void createAndWriteAdminDataToFile(UserManagerOperation[] usersManagerOperation, Admin admin) throws IOException {
         Create create;
         create = (Create) usersManagerOperation[0];
@@ -131,4 +138,6 @@ public class RegexController {
             menu.run();
         }
     }
+
+
 }

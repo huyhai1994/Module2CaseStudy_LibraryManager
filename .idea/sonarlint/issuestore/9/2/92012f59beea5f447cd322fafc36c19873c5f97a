@@ -1,7 +1,7 @@
 
 ˆ
-java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¢·ñµ8›Š’ü÷1J$0ecc4bb7-a4af-408c-9d5c-ad3cca3b5df7
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”œØ8Š’ü÷1J$3ae1598c-c8a2-447b-ad50-4000d3f935d2
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¢·ñµ8˜«Ùı÷1J$d0cf0669-a606-4b99-af0b-ac20689dc8f1
+›
+java:S1450"SRemove the "menu" field and declare it as a local variable in the relevant methods.(ş™¸«şÿÿÿÿ8ÎíÓı÷1J$d3c3b853-253a-4122-b8be-c21a2a7da8a5
 ~
-java:S2696"6Make the enclosing method "static" or remove this set.(îÎÌìúÿÿÿÿ8 Š’ü÷1J$760a23be-fbe0-461b-962f-32c22042da20
+java:S2696"6Make the enclosing method "static" or remove this set.(îÎÌìúÿÿÿÿ8ÒíÓı÷1J$e1e28208-71e9-456e-b559-8806407a6236
