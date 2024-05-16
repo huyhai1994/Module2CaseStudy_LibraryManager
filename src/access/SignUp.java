@@ -21,6 +21,10 @@ public class SignUp extends Access {
         int userChoiceIndex = scanner.nextInt();
         RegexController regexController = RegexController.createController();
         regexController.navigateBackToMenuIfRegexCheckFail(userChoiceIndex);
+        createAccountDependOnUserChoise(userChoiceIndex, regexController);
+    }
+
+    private static void createAccountDependOnUserChoise(int userChoiceIndex, RegexController regexController) throws IOException {
         switch (userChoiceIndex) {
             case ONE:
                 regexController.createAdminAccount();

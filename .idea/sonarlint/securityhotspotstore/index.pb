@@ -97,3 +97,5 @@ X
 (test/regex/RegexUserPhoneNumberTest.java,7/6/768657c90f22de31069a06f626513f0331d923a1
 G
 CaseStudyLibraryHai.iml,4/8/488c39f9551d01ccd870566d4c35b35d3763e0d3
+K
+test/access/SignInTest.java,5/0/5094c48de89711d3a438cbad46e327af92776f90

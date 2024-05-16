@@ -15,7 +15,6 @@ public class Menu {
     private static Menu menu;
     private RegexController regexController = RegexController.createController();
     private RegexEmail regexUserEmail = new RegexEmail();
-    private RegexUserChoise regexUserChoise = new RegexUserChoise();
     private RegexUserName regexUserName = new RegexUserName();
     private RegexUserPhoneNumber regexUserPhoneNumber = new RegexUserPhoneNumber();
 
@@ -33,7 +32,8 @@ public class Menu {
     }
 
     public void printWelcome() {
-        System.out.println("\n--------Chào Mừng Tới Thư Viện Số---------\n");
+        System.out.println("\n-----------Chào Mừng Tới Thư Viện Số-----------\n");
+        System.out.println("                <Menu chính>");
     }
 
     public String getUserNameAndPrintGuidelines() throws IOException {
@@ -89,7 +89,7 @@ public class Menu {
         printAccountSuccesfullyCreated();
         System.out.println("Danh Sách Tài " +
                 "Khoản: ");
-        printUsersListFormat()u;
+        printUsersListFormat();
         regexController.printAdminInformations();
     }
 
@@ -130,4 +130,11 @@ public class Menu {
         return new Scanner(System.in);
     }
 
+    public void printTheOperationNotAvailable() {
+        System.out.println("Tính năng chưa cập nhật");
+    }
+
+    public void printNaviatingBackToMenu() {
+        System.out.println("Điều hướng quay lại menu");
+    }
 }

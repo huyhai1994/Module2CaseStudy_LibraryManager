@@ -61,8 +61,10 @@ public class RegexController {
         return admin;
     }
 
-    public void navigateBackToMenuIfRegexCheckFail(int userChoiceIndex) {
+    public void navigateBackToMenuIfRegexCheckFail(int userChoiceIndex) throws IOException {
         if (checkRegexUserChoiseNotMatch(userChoiceIndex)) {
+            menu = Menu.getInstance();
+            menu.printNaviatingBackToMenu();
             menu.run();
         }
     }
@@ -78,6 +80,7 @@ public class RegexController {
     public void navigateBackToMenuIfUserNameRegexCheckFail(String inputUserName) throws IOException {
         if (checkRegexUserNameNotMatch(inputUserName)) {
             menu = Menu.getInstance();
+            menu.printNaviatingBackToMenu();
             menu.run();
         }
     }
@@ -124,6 +127,7 @@ public class RegexController {
     public void navigateBackToMenuIfRegexPhoneNumberCheckFail(String userPhoneNumber) throws IOException {
         if (checkUserPhoneNumberNotMatch(userPhoneNumber)) {
             menu = Menu.getInstance();
+            menu.printNaviatingBackToMenu();
             menu.run();
         }
     }
