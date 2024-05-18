@@ -11,16 +11,37 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ReadUserFileTest {
+
+    private String filePath = "datatest/userWriteTest.csv";
+
     @Test
     void testReadContentsFromTestFile() throws IOException {
-        ReadUserFile readUserFile = new ReadUserFile("data/test.csv");
+        ReadUserFile readUserFile = new ReadUserFile(filePath);
         assertTrue(readUserFile.isContentExist());
         System.out.println();
     }
 
     @Test
     void testReadContentsReturnsUserlist() throws IOException {
-        ReadUserFile readUserFile = new ReadUserFile("datatest/userWriteTest.csv");
+        ReadUserFile readUserFile = new ReadUserFile(filePath);
+        ArrayList<Admin> expected = getAdmins();
+        ArrayList<Admin> results = readUserFile.readContentsFromFile();
+        for (int i = 0; i < expected.size(); i++) {
+            assertTrue(results.get(i).getName().equals(expected.get(i).getName()));
+            assertTrue(results.get(i).getEmail().equals(expected.get(i).getEmail()));
+            assertTrue(results.get(i).getPhoneNumber().equals(expected.get(i).getPhoneNumber()));
+        }
+    }
+    @Test
+    void testArrayListObjectsEqual(){
+        ArrayList<Admin> expected = getAdmins();
+        ArrayList<Admin> result = getAdmins();
+        assertEquals(expected.get(0).getName(), result.get(0).getName());
+        assertEquals(expected.get(1).getName(), result.get(1).getName());
+        assertEquals(expected.get(2).getName(), result.get(2).getName());
+    }
+
+    private static ArrayList<Admin> getAdmins() {
         ArrayList<Admin> expected = new ArrayList<>();
         Admin admin1 = new Admin(1, "admin1");
         admin1.setEmail("admin1@gmail.com");
@@ -34,13 +55,6 @@ public class ReadUserFileTest {
         expected.add(admin1);
         expected.add(admin2);
         expected.add(admin3);
-        ArrayList<Admin> results = readUserFile.readContentsFromFile();
-        System.out.println(results);
-        System.out.println(expected);
-        //assertArrayEquals(expected.toArray(), results.toArray());
-        assertEquals(expected.size(), results.size());
-        for (int i = 0; i < expected.size(); i++)
-            assertEquals( expected.get(i), results.get(i));
-
+        return expected;
     }
 }

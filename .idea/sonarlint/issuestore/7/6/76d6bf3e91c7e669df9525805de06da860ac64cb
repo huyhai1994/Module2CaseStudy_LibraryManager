@@ -1,5 +1,7 @@
 
 —
-java:S1450"URemove the "admins" field and declare it as a local variable in the relevant methods.(ë›‰l8Î†´Û÷1J$00e5d47c-3b57-45c9-8072-28903bfa97c5
-”
-java:S26771"LUse or store the value returned from "readLine" instead of throwing it away.(ë¡Èèşÿÿÿÿ8Ö†´Û÷1J$e98197af-3ee0-46de-bb82-1a65027ed725
+java:S1450"URemove the "admins" field and declare it as a local variable in the relevant methods.(ë›‰l8Î†´Û÷1J$4f94098c-d682-40cd-a53a-31f29a488748
+l
+java:S19401")Use the opposite operator ("!=") instead.(†¹·’8ÛŒôßø1J$0de1043b-4f82-4f44-9b84-cf95fc40ce42
+
+java:S26771"LUse or store the value returned from "readLine" instead of throwing it away.(†¹·’8ŞŒôßø1J$5609d9c9-38d8-4294-bb09-7859d65d67cb

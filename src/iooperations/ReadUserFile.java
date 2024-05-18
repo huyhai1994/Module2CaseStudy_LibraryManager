@@ -46,7 +46,7 @@ public class ReadUserFile extends IOOperations implements ReadFile {
      * @throws IOException if an I/O error occurs
      */
     public boolean isContentExist() throws IOException {
-        return this.bufferedReader.readLine() != null;
+        return !(this.bufferedReader.readLine() == null);
     }
 
     /**
