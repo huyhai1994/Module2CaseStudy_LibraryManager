@@ -42,5 +42,14 @@ public class CreateAndDeleteFileTest {
         deleteFile.deleteFile();
         assertTrue(createFile.isFileNotExist());
     }
-
+    @Test
+    @DisplayName("Tao file MaxId")
+    public void createMaxIdFile() throws IOException {
+        CreateFile createFile = new CreateFile("datatest/maxTemporaryId.csv");
+        createFile.createFile();
+        assertTrue(createFile.isFileExist());
+        DeleteFile deleteFile = new DeleteFile("datatest/maxTemporaryId.csv");
+        deleteFile.deleteFile();
+        assertFalse(deleteFile.isFileExist());
+    }
 }

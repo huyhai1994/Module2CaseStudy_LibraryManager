@@ -1,14 +1,17 @@
 package regex;
 
+import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.*;
 
-class RegexEmailTest {
+public class RegexEmailTest {
     @Test
     void testRegexEmailTest6to32codeG() {
         RegexEmail regexEmail = new RegexEmail();
-        assertFalse(regexEmail.isMatch("codeG"));
+        Assertions.assertFalse(regexEmail.isMatch("codeG"));
     }
 
     @Test
@@ -20,7 +23,7 @@ class RegexEmailTest {
     @Test
     void testRegexEmailTest6to32CodeGym() {
         RegexEmail regexEmail = new RegexEmail();
-        assertFalse(regexEmail.isMatch("CodeGym"));
+        Assert.assertFalse(regexEmail.isMatch("CodeGym"));
     }
 
     @Test

@@ -1,6 +1,12 @@
 package user.type;
 
+import database.DataBase;
+import iooperations.CreateFile;
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
+
+import java.io.IOException;
+import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -115,6 +121,24 @@ class AdminTest {
         String result = admin.toString();
         assertEquals(expected, result);
     }
+    @Test
+    void idAutomaticallyIncrement() throws IOException {
+        CreateFile createFile = new CreateFile("datatest/maxTemporaryId.csv");
+        createFile.createFile();
+        assertTrue(createFile.isFileExist());
+        Admin admin1 = new Admin(1, "admin1");
+        Admin admin2 = new Admin(2, "admin2");
+        Admin admin3 = new Admin(3, "admin3");
+        DataBase dataBase = DataBase.getInstance();
+        ArrayList<Admin> admins = dataBase.getAdmins();
+        admins.add(admin1);
+        admins.add(admin2);
+        admins.add(admin3);
 
+        int expected = 1;
+        int result = admins.size();
 
+        assertEquals(expected , result);
+
+    }
 }

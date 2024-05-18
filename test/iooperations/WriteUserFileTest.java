@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class WriteUserFileTest {
 
-    String filePath = "data/userWriteTest.csv";
+    String filePath = "datatest/userWriteTest.csv";
 
     @Test
     void isFileExistsTest() throws IOException {
@@ -58,6 +58,13 @@ class WriteUserFileTest {
         expected.add(admin2);
         expected.add(admin3);
         writeUserFile.writeContentsToFile(expected);
+    }
+
+    @Test
+    @DisplayName("ghi max id cua nguoi dung")
+    void writeMaxIdAdmins(){
+
+
     }
 
 }

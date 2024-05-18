@@ -1,6 +1,7 @@
 package iooperations;
 
 import user.type.Admin;
+import user.type.User;
 
 import java.util.ArrayList;
 

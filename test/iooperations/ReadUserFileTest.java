@@ -5,7 +5,9 @@ import user.type.Admin;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ReadUserFileTest {
@@ -18,7 +20,7 @@ public class ReadUserFileTest {
 
     @Test
     void testReadContentsReturnsUserlist() throws IOException {
-        ReadUserFile readUserFile = new ReadUserFile("data/userTest.csv");
+        ReadUserFile readUserFile = new ReadUserFile("datatest/userWriteTest.csv");
         ArrayList<Admin> expected = new ArrayList<>();
         Admin admin1 = new Admin(1, "admin1");
         admin1.setEmail("admin1@gmail.com");
@@ -32,9 +34,13 @@ public class ReadUserFileTest {
         expected.add(admin1);
         expected.add(admin2);
         expected.add(admin3);
-
         ArrayList<Admin> results = readUserFile.readContentsFromFile();
         System.out.println(results);
         System.out.println(expected);
+        //assertArrayEquals(expected.toArray(), results.toArray());
+        assertEquals(expected.size(), results.size());
+        for (int i = 0; i < expected.size(); i++)
+            assertEquals( expected.get(i), results.get(i));
+
     }
 }

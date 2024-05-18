@@ -15,7 +15,6 @@ public class DataBase {
     private static DataBase dataBase;
     private ArrayList<User> users = new ArrayList<>();
     private ArrayList<Admin> admins = new ArrayList<>();
-    private RegexController regexController = RegexController.createController();
     private UserManagerOperation[] usersManagerOperations;
 
     private DataBase() throws IOException {

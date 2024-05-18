@@ -1,13 +1,14 @@
 
 ³
-java:S1319+"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÿ…Èõ8ÚÌŞ÷1J$7c1ac6f7-e321-4ed3-a61c-58205396ba75
+java:S1319*"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÿ…Èõ8ÚÌŞ÷1J$41d35c07-f238-4abf-9159-8f111fa02e0e
 ¸
-java:S1319/"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ëª“†ıÿÿÿÿ8ÚÌŞ÷1J$91cd9f51-557e-4142-b14b-808aec639799
+java:S1319."pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ëª“†ıÿÿÿÿ8ÚÌŞ÷1J$4573cf62-2236-451c-9719-132c391918b7
 £
-java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8ÜÌŞ÷1J$18fbf4b9-ccc1-401f-b600-7337e88c8789
+java:S1104"[Make numberOfObjects a static final constant or non-public and provide accessors if needed.(€êĞæÿÿÿÿÿ8ÜÌŞ÷1J$dc879278-6f19-4ae1-ab38-48c922390e83
 }
-java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8İÌŞ÷1J$d0725fd4-2c33-43a9-bf14-d84192176cf0
+java:S1444"5Make this "public static numberOfObjects" field final(€êĞæÿÿÿÿÿ8İÌŞ÷1J$5e5217a7-01bc-4028-bea1-7fbadbf16390
 á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(êà™¿ùÿÿÿÿ8çÌŞ÷1J$d51a5e4b-1b35-4223-8f2e-70eb3debd7cc
-U
-java:S1068"3Remove this unused "regexController" private field.(ƒ»…áûÿÿÿÿ8ıòÂß÷1
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(êà™¿ùÿÿÿÿ8çÌŞ÷1J$a05f7706-dd6b-4aec-b0ee-b14d3f27292f
+T
+java:S1128
+"7Remove this unused import 'controller.RegexController'.(ŒËì§8ÜŒÓØø1
